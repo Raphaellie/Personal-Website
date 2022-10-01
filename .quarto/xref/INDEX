@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "8692342b"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "2ce31d5d"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "4d099cf1"
+  },
+  "about.qmd": {
+    "about.html": "d855bfdf"
+  },
+  "research.qmd": {
+    "research.html": "590a73a4"
+  },
+  "resources.qmd": {
+    "resources.html": "0736aaa8"
+  },
+  "software.qmd": {
+    "software.html": "31b5c38c"
+  },
+  "data.qmd": {
+    "data.html": "13546cbd"
+  },
+  "graphics.qmd": {
+    "graphics.html": "99dc8f2f"
+  }
+}

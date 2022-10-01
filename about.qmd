@@ -1,0 +1,66 @@
+---
+title: "Chaoyue R. Wang"
+about:
+  id: about-heading
+  template: trestles
+  image: profile.jpg
+  image-width: 15em
+  links: 
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/raphael_cwang
+    - icon: github
+      text: GitHub
+      href: https://github.com/dsanchezp18
+    - icon: bar-chart-fill
+      text: RPubs
+      href: https://rpubs.com/dsanchezp998
+    - icon: file-person-fill
+      text: CV
+      href: files/cv/daniel_sanchez_cv.pdf
+---
+
+::: {#about-heading}
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+## Bio
+
+I grew up in an industrial neighborhood in Chongqing, China, and then went to Beijing for my undergraduate education. I am currently a senior student of Philosophy, Politics and Economics at Peking University. With a regional focus on American politics, my current interest lays at the intersection between partisan attachments and a broader range of social identities, principally race and ethnicity. Specifically, I am concerned about: first, how social processes and cognitive mechanisms, combined with historical contexts, can furnish identities that are by content apolitical with political meanings; second, how individuals perceive and react to their everyday life, be it political or not, through a lens of racial identities and racial relations.
+:::
+
+<div>
+
+As put by [Professor Daniel M. Giménez](https://twitter.com/Ego_Ipse), R is my copilot - I became passionate about data analysis and visualization using R during my undergraduate studies in econometrics, and I've been using R as much as I can ever since.
+
+</div>
+
+## Education `r fa("graduation-cap")`
+
+-   BA in Philosophy, Politics and Economics (PPE) \| expected 2023 \| **Peking University**
+
+## Research Interets `r fa('book-open-reader')`
+
+::: columns
+::: column
+<!-- #### Area -->
+
+-   American Politics
+-   Race and Ethnic Politics (REP)
+-   Political Behavior
+-   Public Opinion
+:::
+
+::: column
+<!-- #### Topic -->
+
+-   Politics of Identity
+-   Racial Imagery
+-   Social Cleavage
+-   Partisanship
+-   Affective Polarization
+:::
+:::

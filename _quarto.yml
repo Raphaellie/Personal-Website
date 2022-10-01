@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Chaoyue Wang"
+  navbar:
+    foreground: light
+    left:
+      - href: about.qmd
+        text: About
+      - research.qmd
+      - data.qmd
+      - software.qmd
+      - href: graphics.qmd
+        text: Gallery
+    right: 
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        href: https://github.com/
+  
+
+format:
+  html:
+    theme: 
+      - journal
+      - custom.scss
+    css: styles.css
+
+editor: visual
+
