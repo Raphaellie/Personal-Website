@@ -94,7 +94,7 @@ There are some field-specific books/websites which I think are interesting that 
 -   [Financial, Macro and Micro Econometrics Using R](https://www.elsevier.com/books/financial-macro-and-micro-econometrics-using-r/vinod/978-0-12-820250-0)
 -   [Quantitative Economics with R](https://link.springer.com/book/10.1007/978-981-15-2035-8)
 
-[^2]:  Not really a book or a standalone website, but the course material for a course Dr. Andrew Heiss taught at the Andrew Young School of Policy Studies at Georgia State University. All of Dr. Heiss' material is g-o-l-d. See his page [here](https://www.andrewheiss.com/).
+[^2]: Not really a book or a standalone website, but the course material for a course Dr. Andrew Heiss taught at the Andrew Young School of Policy Studies at Georgia State University. All of Dr. Heiss' material is g-o-l-d. See his page [here](https://www.andrewheiss.com/).
 
 [^3]: The same as the previous footnote, but this is the course material for Jenny Bryan's course on statistics at the University of British Columbia. [Happy Git](https://happygitwithr.com/index.html) is also part of that course.
 
