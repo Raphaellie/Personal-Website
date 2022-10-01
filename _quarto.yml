@@ -3,6 +3,17 @@ project:
 
 website:
   title: "Chaoyue Wang"
+  description: "Chaoyue Wang's Personal Website"
+  favicon: icon.png
+  page-footer:
+    right:
+      - icon: envelope
+        href: mailto:chyrwang@gmail.com
+      - icon: twitter
+        href: https://twitter.com/raphael_cwang
+      - icon: github
+        href: https://github.com/Raphaellie
+    left: "{{< fa copyright >}} 2022, Chaoyue Wang. Proudly Build with Quarto through RStudio."
   navbar:
     foreground: light
     left:
@@ -12,7 +23,7 @@ website:
       - data.qmd
       - software.qmd
       - href: graphics.qmd
-        text: Gallery
+        text: Graphics
     right: 
       - icon: twitter
         href: https://twitter.com/raphael_cwang

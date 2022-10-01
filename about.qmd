@@ -12,12 +12,12 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/dsanchezp18
-    - icon: bar-chart-fill
-      text: RPubs
-      href: https://rpubs.com/dsanchezp998
     - icon: file-person-fill
       text: CV
       href: files/cv/daniel_sanchez_cv.pdf
+    - icon: bar-chart-fill
+      text: RPubs
+      href: https://rpubs.com/dsanchezp998
 ---
 
 ::: {#about-heading}
@@ -27,22 +27,33 @@ about:
 library(fontawesome)
 ```
 
-## Bio
+# Hi There!
 
-I grew up in an industrial neighborhood in Chongqing, China, and then went to Beijing for my undergraduate education. I am currently a senior student of Philosophy, Politics and Economics at Peking University. With a regional focus on American politics, my current interest lays at the intersection between partisan attachments and a broader range of social identities, principally race and ethnicity. Specifically, I am concerned about: first, how social processes and cognitive mechanisms, combined with historical contexts, can furnish identities that are by content apolitical with political meanings; second, how individuals perceive and react to their everyday life, be it political or not, through a lens of racial identities and racial relations.
+I grew up in an industrial town in Chongqing, China, and went to Beijing for my undergraduate education. Currently I am a senior of Philosophy, Politics and Economics[^1] at Peking University. I also go by Raphael, my Catholic name.
+
+Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries---people's racialized imagination of politically relevant categories---shape people's perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.
 :::
+
+[^1]: Rather three individual majors as it may sound like, Philosophy, Politics and Economics (PPE) is actually one combined, interdisciplinary major that [originates from the University of Oxford in the 1920s](https://en.wikipedia.org/wiki/Philosophy,_politics_and_economics).
 
 <div>
 
-As put by [Professor Daniel M. Giménez](https://twitter.com/Ego_Ipse), R is my copilot - I became passionate about data analysis and visualization using R during my undergraduate studies in econometrics, and I've been using R as much as I can ever since.
+A passionate `r fa('r-project',fill = 'steelblue')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot. Check some of the graphs I made with the help of `{tidyverse}` and `{shiny}`in the [Gallery](graphics.qmd) page.
 
 </div>
 
+[^2]:
+    <div>
+
+    `r fa('r-project',fill = 'steelblue')` is actually such a powerhouse that I can almost conduct finish every stage of a research project entirely within the environment of `RStudio` , from data cleaning to in-depth analyses to writing the final manuscript! And despite my unapologetic love for `R`, I did set out my journey of quantitative social science in the arms of `Stata`, which I still use once in while for its stability and clarity in inspecting and labeling data.
+
+    </div>
+
 ## Education `r fa("graduation-cap")`
 
--   BA in Philosophy, Politics and Economics (PPE) \| expected 2023 \| **Peking University**
+-   BA in Philosophy, Politics and Economics (PPE) • expected 2023 • **Peking University**
 
-## Research Interets `r fa('book-open-reader')`
+## Research Interests `r fa('book-open-reader')`
 
 ::: columns
 ::: column
