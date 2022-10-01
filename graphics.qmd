@@ -1,5 +1,5 @@
 ---
-title: Graphs
+title: "{{< fa chart-area >}} Gallery"
 subtitle: |
   A collection of datavisualizations created for challenges such as #TidyTuesday or the #30DayChartChallenge. Others resulted from personal data exploration projects found on this blog. The code can either be found in blog posts or on my github page.
 editor_options: 

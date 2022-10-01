@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "{{< fa window-restore >}} Software"
 toc: true
 bibliography: references_personal_website_resources.bib
 nocite: '@*'

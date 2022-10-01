@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "{{< fa burst >}} Research "
 toc: true
 toc-depth: 2
 ---

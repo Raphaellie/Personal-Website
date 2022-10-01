@@ -1,5 +1,5 @@
 ---
-title: "Data"
+title: "{{< fa database >}} Data"
 bibliography: references_personal_website_resources.bib
 nocite: '@*'
 csl: econometrics.csl

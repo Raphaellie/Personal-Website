@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "{{< fa regular comment >}} Blog"
 listing:
   contents: posts
   sort: "date desc"

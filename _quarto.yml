@@ -20,17 +20,22 @@ website:
   
   navbar:
     title: "Chaoyue Wang"
-    foreground: light
+    logo: icon.png
+    background: light
+    foreground: dark
     left:
       - href: about.qmd
-        text: About
-      - research.qmd
-      - data.qmd
-      - software.qmd
+        text: "{{< fa regular address-card >}} About"
+      - href: research.qmd
+        text: "{{< fa burst >}} Research"
+      - href: data.qmd
+        text: "{{< fa database >}} Data"
+      - href: software.qmd
+        text: "{{< fa window-restore >}} Software"
       - href: graphics.qmd
-        text: Graphics
+        text: "{{< fa chart-bar >}} Graphics"
       - href: blog.qmd
-        text: Blog
+        text: "{{< fa regular comment >}} Blog"
     right: 
       - icon: twitter
         href: https://twitter.com/raphael_cwang
