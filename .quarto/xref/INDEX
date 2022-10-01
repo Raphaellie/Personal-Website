@@ -25,5 +25,20 @@
   },
   "graphics.qmd": {
     "graphics.html": "99dc8f2f"
+  },
+  "blog.qmd": {
+    "blog.html": "d08dd061"
+  },
+  "posts/shiny-example/index.qmd": {
+    "index.html": "a96d3aea"
+  },
+  "posts/old-faithful/index.qmd": {
+    "index.html": "ef2dc235"
+  },
+  "posts/old-faithful/old-faithful.qmd": {
+    "old-faithful.html": "7a312e9f"
+  },
+  "old-faithful.qmd": {
+    "old-faithful.html": "854bb47c"
   }
 }

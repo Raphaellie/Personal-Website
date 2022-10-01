@@ -16,7 +16,7 @@ about:
       text: CV
       href: files/cv/daniel_sanchez_cv.pdf
     - icon: bar-chart-fill
-      text: RPubs
+      text: Quarto
       href: https://rpubs.com/dsanchezp998
 ---
 
@@ -42,16 +42,12 @@ A passionate `r fa('r-project',fill = 'steelblue')` user[^2], I enjoy applying p
 
 </div>
 
-[^2]:
-    <div>
-
-    `r fa('r-project',fill = 'steelblue')` is actually such a powerhouse that I can almost conduct finish every stage of a research project entirely within the environment of `RStudio` , from data cleaning to in-depth analyses to writing the final manuscript! And despite my unapologetic love for `R`, I did set out my journey of quantitative social science in the arms of `Stata`, which I still use once in while for its stability and clarity in inspecting and labeling data.
-
-    </div>
+[^2]: `r fa('r-project',fill = 'steelblue')` is actually such a powerhouse that I can almost conduct finish every stage of a research project entirely within the environment of `RStudio` , from data cleaning to in-depth analyses to writing the final manuscript! And despite my unapologetic love for R, I did set out my journey of quantitative social science in the arms of `Stata`, which I still use once in while for its stability and clarity in inspecting and labeling data.
 
 ## Education `r fa("graduation-cap")`
 
--   BA in Philosophy, Politics and Economics (PPE) • expected 2023 • **Peking University**
+-   BA in Philosophy, Politics and Economics (PPE) \| expected 2023 \| **Peking University**
+-   Exchange Student, ASAP Parterships \| Dec 2021 \| **University of Notre Dame**
 
 ## Research Interests `r fa('book-open-reader')`
 

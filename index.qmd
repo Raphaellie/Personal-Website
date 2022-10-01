@@ -1,5 +1,6 @@
 ---
 title: "HOME"
+
 listing:
   contents: posts
   sort: "date desc"

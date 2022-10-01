@@ -1,10 +1,13 @@
 project:
   type: website
+  resources: 
+  - "assets/"
 
 website:
-  title: "Chaoyue Wang"
+  title: "Chaoyue"
   description: "Chaoyue Wang's Personal Website"
   favicon: icon.png
+  
   page-footer:
     right:
       - icon: envelope
@@ -13,8 +16,10 @@ website:
         href: https://twitter.com/raphael_cwang
       - icon: github
         href: https://github.com/Raphaellie
-    left: "{{< fa copyright >}} 2022, Chaoyue Wang. Proudly Build with Quarto through RStudio."
+    left: "Chaoyue Wang {{< fa solid copyright >}} 2022. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
+  
   navbar:
+    title: "Chaoyue Wang"
     foreground: light
     left:
       - href: about.qmd
@@ -24,12 +29,13 @@ website:
       - software.qmd
       - href: graphics.qmd
         text: Graphics
+      - href: blog.qmd
+        text: Blog
     right: 
       - icon: twitter
         href: https://twitter.com/raphael_cwang
       - icon: github
         href: https://github.com/Raphaellie
-  
 
 format:
   html:
