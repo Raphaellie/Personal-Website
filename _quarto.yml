@@ -7,7 +7,8 @@ website:
   title: "Chaoyue"
   description: "Chaoyue Wang's Personal Website"
   favicon: icon.png
-  
+  search: 
+    type: textbox
   page-footer:
     right:
       - icon: envelope
@@ -19,7 +20,7 @@ website:
     left: "Chaoyue Wang {{< fa solid copyright >}} 2022. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
   
   navbar:
-    title: "Chaoyue Wang"
+    title: "CHAOYUE WANG"
     logo: icon.png
     background: light
     foreground: dark
@@ -44,9 +45,7 @@ website:
 
 format:
   html:
-    theme: 
-      - journal
-      - custom.scss
+    theme: [journal, custom.scss]
     css: styles.css
 
 editor: visual

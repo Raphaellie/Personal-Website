@@ -1,11 +1,13 @@
 /*-- scss:defaults --*/
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Epilogue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Open+Sans:wght@400;600&family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;600&family=PT+Sans:wght@400;700&display=swap');
 
 $font-family-sans-serif: "Lato" !default;
+//$headings-font-family: 'News Cycle' !default;
 
-// $primary: #3e6695;  #10378c #11233e #132e68 #405a93 #2b396b
+
+// $primary: #3e6695;  #10378c #11233e #132e68 #405a93 #2b396b #111c51
 // $navbar-bg: #2b396b ; 
 
 // theme 1: black front + blue highlight + light bg
@@ -18,3 +20,5 @@ $navbar-hl: #10378c ;
 // $navbar-bg: #2b396b ; 
 
 $font-size-root: 100%;
+
+

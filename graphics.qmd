@@ -1,7 +1,8 @@
 ---
-title: "{{< fa chart-area >}} Gallery"
+title: "{{< fa regular chart-bar >}} Gallery"
 subtitle: |
-  A collection of datavisualizations created for challenges such as #TidyTuesday or the #30DayChartChallenge. Others resulted from personal data exploration projects found on this blog. The code can either be found in blog posts or on my github page.
+  A collection of datavisualizations created for challenges such as #TidyTuesday or the #30DayChartChallenge. Others resulted from personal data exploration projects found on this blog. The code can either be found in blog posts or on my github page. The neat display of pictures here is made possible by the power of `{pixture}`.
+title-block-banner: true
 editor_options: 
   chunk_output_type: console
 ---
@@ -13,3 +14,18 @@ pixgallery(list.files('assets/graphs',full.names = T),type = 'grid',gap = '20px'
 
 ```
 
+<!-- ```{dot} -->
+<!-- //| label: fig-dig -->
+<!-- //| fig-height: 0.6 -->
+<!-- //| fig-cap: | -->
+<!-- //|   A scheme for the relationship between social identities and political behavior. -->
+<!-- digraph graphname { -->
+<!--     graph [layout = dot, rankdir = LR]  -->
+
+<!--     Identity [fontname="Helvetica Neue light"] -->
+<!--     Politics [fontname="Helvetica Neue light"] -->
+
+<!--     Identity -> Politics -->
+<!--     Politics -> Identity -->
+<!-- } -->
+<!-- ``` -->

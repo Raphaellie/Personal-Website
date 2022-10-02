@@ -1,17 +1,45 @@
 [
   {
+    "objectID": "research/local-party-images/index.html",
+    "href": "research/local-party-images/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research/identity-shift/index.html",
+    "href": "research/identity-shift/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research/racialized-police/racialized-police.html",
+    "href": "research/racialized-police/racialized-police.html",
+    "title": "Blues in Colors: Police Violence, Racial Representation, and White Attitude Change",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "research/minority-GOP/index.html",
+    "href": "research/minority-GOP/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": " Research",
     "section": "",
-    "text": "I’m interested in causal inference, the economics of corruption, financial economics as well as in labor and education economics. However, any research question that I find interesting is worth pursuing for me. I believe that research should be as reproducible as possible, so I try to always publish my source code for all my projects on my GitHub and RPubs sites. Further, along with very good academics at LIDE, I work on research and projects that can help the development of my home country, Ecuador. Some of the work that I’ve done with LIDE can be seen below or also at the organization’s blog, El Quantificador."
+    "text": "Both in the United States and around the globe, political cleavages along group boundaries increasingly impose an obstruction on democratic governance. I’m interested in the relationship between racial identities and political behavior in the context of American Politics. Specifically, my research revolves around the two bundles of questions:"
   },
   {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": " Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nBreak the Party Images? The Electoral Impact of Minority Republican Candidates\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs.\n\nPDF\n\n\nSee the Other Side: Local Party Images and Affective Polarization\nDedicated to the memory of Jorge Pazmiño (1941-2021)\n\nCapstone project presented for the obtainment of the Bachelor of Arts in Economics degree at USFQ. Awarded best USFQ undergraduate capstone project for the Fall 2021 semester by the School of Economics faculty. Submitted to the Philosophy, Politics and Economics Review.\nPresented a working paper version at the USFQ School of Economics Undergraduate Conferences Fall 2021 on December 12th, 2021.\nWorking paper available here. Initial version submitted to USFQ capstone project’s DSpace available here. As of July 2022, a GitHub repository includes source code to reproduce all1 of the paper’s prose and R code. Spanish version coming in the future.\n\nHTML\n\n\nBreak the Party Images? The Electoral Impact of Minority Republican Candidates\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs."
+    "text": "Working Papers\n\nBlues in Colors: Police Violence, Racial Representation, and White Attitude Change\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs.\n\nPDF\nHTML\nGitHub\n\n\nSee the Other Side: Local Party Images and Affective Polarization\nLeveraging variations of racialized party imageries at the level of congressional district from 2016 to 2020.\n\nCapstone project presented for the obtainment of the Bachelor of Arts in Economics degree at USFQ. Awarded best USFQ undergraduate capstone project for the Fall 2021 semester by the School of Economics faculty. Submitted to the Philosophy, Politics and Economics Review.\nPresented a working paper version at the USFQ School of Economics Undergraduate Conferences Fall 2021 on December 12th, 2021.\nWorking paper available here. Initial version submitted to USFQ capstone project’s DSpace available here. As of July 2022, a GitHub repository includes source code to reproduce all1 of the paper’s prose and R code. Spanish version coming in the future.\n\nPDF\nHTML\nGitHub\n\n\nBreak the Party Images? The Electoral Impact of Minority Republican Candidates\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs."
   },
   {
     "objectID": "research.html#works-in-progress",
@@ -35,11 +63,25 @@
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/old-faithful/index.html",
-    "href": "posts/old-faithful/index.html",
-    "title": "Old Faithful",
+    "objectID": "research-2.html",
+    "href": "research-2.html",
+    "title": " Research",
     "section": "",
-    "text": "Number of bins:"
+    "text": "I’m interested in causal inference, the economics of corruption, financial economics as well as in labor and education economics. However, any research question that I find interesting is worth pursuing for me. I believe that research should be as reproducible as possible, so I try to always publish my source code for all my projects on my GitHub and RPubs sites. Further, along with very good academics at LIDE, I work on research and projects that can help the development of my home country, Ecuador. Some of the work that I’ve done with LIDE can be seen below or also at the organization’s blog, El Quantificador."
+  },
+  {
+    "objectID": "research-2.html#working-papers",
+    "href": "research-2.html#working-papers",
+    "title": " Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\nBlues in Colors: Police Violence, Racial Representation, and White Attitude Change\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs.\n\nPDF\n\n\nSee the Other Side: Local Party Images and Affective Polarization\nDedicated to the memory of Jorge Pazmiño (1941-2021)\n\nCapstone project presented for the obtainment of the Bachelor of Arts in Economics degree at USFQ. Awarded best USFQ undergraduate capstone project for the Fall 2021 semester by the School of Economics faculty. Submitted to the Philosophy, Politics and Economics Review.\nPresented a working paper version at the USFQ School of Economics Undergraduate Conferences Fall 2021 on December 12th, 2021.\nWorking paper available here. Initial version submitted to USFQ capstone project’s DSpace available here. As of July 2022, a GitHub repository includes source code to reproduce all1 of the paper’s prose and R code. Spanish version coming in the future.\n\nHTML\n\n\nBreak the Party Images? The Electoral Impact of Minority Republican Candidates\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs."
+  },
+  {
+    "objectID": "research-2.html#works-in-progress",
+    "href": "research-2.html#works-in-progress",
+    "title": " Research",
+    "section": "Works in Progress",
+    "text": "Works in Progress\n\nFollow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes\n\nSánchez Pazmiño, D. H. (2022). Immunizing the Economy: A Causality Discussion on Vaccines and Economic Recovery. X-Pedientes Económicos, 6(14), 65–82.\nSource code posted in a GitHub repository and an RMarkdown notebook posted which was also posted in RPubs."
   },
   {
     "objectID": "index.html",
@@ -103,19 +145,5 @@
     "title": " Blog",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 27, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/old-faithful/old-faithful.html",
-    "href": "posts/old-faithful/old-faithful.html",
-    "title": "Old Faithful",
-    "section": "",
-    "text": "Number of bins:"
-  },
-  {
-    "objectID": "old-faithful.html",
-    "href": "old-faithful.html",
-    "title": "Old Faithful",
-    "section": "",
-    "text": "Number of bins:"
   }
 ]

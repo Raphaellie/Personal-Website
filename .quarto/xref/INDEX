@@ -40,5 +40,23 @@
   },
   "old-faithful.qmd": {
     "old-faithful.html": "854bb47c"
+  },
+  "research/local-party-images/index.qmd": {
+    "index.html": "537c41b2"
+  },
+  "research/identity-shift/index.qmd": {
+    "index.html": "7e1fde44"
+  },
+  "research/racialized-police/index.qmd": {
+    "index.html": "6714d082"
+  },
+  "research/minority-GOP/index.qmd": {
+    "index.html": "241c0105"
+  },
+  "research/racialized-police/racialized-police.qmd": {
+    "racialized-police.html": "0ff961ae"
+  },
+  "research-2.qmd": {
+    "research-2.html": "45790dd9"
   }
 }
