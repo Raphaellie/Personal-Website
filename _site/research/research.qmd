@@ -17,7 +17,7 @@ Both in the United States and around the globe, political cleavages along group 
 
 ### Open Science
 
-An adherent to [Open Science](https://en.wikipedia.org/wiki/Open_science#Disadvantages) principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding **GitHub** repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both **PDF** and **HTML** versions will be available for most projects.
+An adherent to [Open Science](https://en.wikipedia.org/wiki/Open_science) principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding **GitHub** repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both **PDF** and **HTML** versions will be available for most projects.
 
 ```{r}
 library(pixture)
@@ -27,7 +27,7 @@ library(pixture)
 
 ### Blues in Colors: Police Violence, Racial Representation, and White Attitude Change
 
--   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the realtity of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
+-   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the reality of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
 
 -   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
 
@@ -42,28 +42,22 @@ pixfigure('racialized-police/view.png', w = '90%')
 
 ### See the Other Side: Local Party Images and Affective Polarization
 
-Leveraging variations of racialized party imageries at the level of congressional district from 2016 to 2020.
+-   Social sorting, the situation where social groups become strongly interconnected with political parties, has been examined as a contributing factor to affective polarization in American politics. By cultivating party images represented through prominent social identities, this process instills group tensions into party politics. Yet few existing studies takes advantage of local variations of partisan composition to investigate whether the extent to which current political polarization are affected by "parties in our head".
 
-```{=html}
-<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-info btn-sm">HTML</button>
-<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
-```
+-   This research builds an index for party images for each congressional district using 2016 and 2020 Cooperative Election Studies, and links these local measures with 2020 American Election Studies where detailed indicators of polarization behavior are included. I find that the further the racial images of local partisans deviate from national stereotypes, the lower level of affective polarization is observed among the district's respondents. The deviation of local party images also undermines the influence group feelings have in people's polarization behavior. Heterogeneities by party and racial group are discussed.
+
+[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+
 ```{r}
 pixfigure('local-party-images/view.png',w = '100%')
 ```
 
 ### Break the Party Images? The Electoral Impact of Minority Republican Candidates
 
--   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the realtity of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
+-   Dominantly white as the GOP is for now, the overall diversification of the U.S. population leads to a historic number of minority Republicans running for and serving in federal offices. With the Republican Party still locked with white Americans and their racial resentment, how do the emergence of these minority Republicans in congressional races enter into voters' perceptions and condition their vote choices as partisans? And further, how do their presence challenge the *status quo* of party-race alignments? Drawing upon respondent's self-reported perception of their house candidates from 2010 to 2020, I find that the perception that the GOP candidate is non-white results in a reduction in party-line voting, a lessening of partisan rigidity, but also an eroding of electoral participation.
 
--   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
+[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
 
-```{=html}
-<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-info btn-sm">HTML</button>
-<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
-```
 ```{r}
 pixfigure('minority-GOP/view.png',w = '100%')
 ```
@@ -74,11 +68,8 @@ pixfigure('minority-GOP/view.png',w = '100%')
 
 -   Exploiting Poland's Prussian partition in history and territory transfers after WWII, this study differentiates out the cultural persistence mechanism through within-treatment comparison. Under a spatial regression discontinuity design, our results indicate overall stronger reluctance toward political and national conservatism in former Prussian area, even after considering socioeconomic covariates. Furthermore, such liberal legacies of historical Prussian rule concentrate only on areas that didn't experienced substantial migration following WWII, cementing a cultural mechanism.
 
-```{=html}
-<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-info btn-sm">HTML</button>
-<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
-```
+[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+
 ```{r}
 pixfigure('poland/view.png',w = '70%')
 ```
@@ -91,9 +82,4 @@ pixfigure('poland/view.png',w = '70%')
 ## Under Construction
 :::
 
-```{=html}
-<a href="about.html"><button type="button" class="btn btn-secondary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-secondary btn-sm">HTML</button>
-<button type="button" href="blog.html"  class="btn btn-secondary btn-sm">GitHub</button>
-```
-### 
+[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
