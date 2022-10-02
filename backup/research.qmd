@@ -1,0 +1,65 @@
+---
+title: "{{< fa burst >}} Research "
+fig-cap-location: margin
+toc: true
+toc-depth: 3
+editor_options: 
+  chunk_output_type: console
+---
+
+Both in the United States and around the globe, political cleavages along group boundaries increasingly impose an obstruction on democratic governance. I'm interested in the relationship between racial identities and political behavior in the context of American Politics. Specifically, my research revolves around the two bundles of questions:
+
+-   **Identities** {{< fa right-long >}} **Politics:** How racial identities shape the ways people perceive and respond to the political world? Through what mechanisms---cultural, psychological, and institutional--are racial identities endowed with political implications? What will the current political polarization look like when construed through a perspective that centers on the role of racial identities?
+
+-   **Politics** {{< fa right-long >}} **Identities:** How do people's politics mold their social identities in return? How do people reconcile the tensions between their political and social selves? For people embodying unusual combinations of politics and identities, like black Republicans or white Evangelical Democrats, which side will triumph in this internal struggle? Or is there a struggle at all?
+
+### Open Science
+
+An adherent to [Open Science](https://en.wikipedia.org/wiki/Open_science#Disadvantages) principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding **GitHub** repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both **PDF** and **HTML** versions will be available for most projects.
+
+## Working Papers
+
+### Blues in Colors: Police Violence, Racial Representation, and White Attitude Change
+
+-   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the state of police violence in the United States. While conventional wisdom looks into experiential and cultural differences between the two groups, this study examines the role of white people's excessive representation in police workforce that fosters a "white imagery" of the profession. Can this "whiter" image of police officers activate ingroup preference among whites but push blacks away?
+
+-   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+### See the Other Side: Local Party Images and Affective Polarization
+
+Leveraging variations of racialized party imageries at the level of congressional district from 2016 to 2020.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+### Break the Party Images? The Electoral Impact of Minority Republican Candidates
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+### The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism in Poland
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+## Works in Progress
+
+### Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+### 

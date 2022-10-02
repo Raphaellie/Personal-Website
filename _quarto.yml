@@ -2,6 +2,7 @@ project:
   type: website
   resources: 
   - "assets/"
+  - "research/"
 
 website:
   title: "Chaoyue"
@@ -9,6 +10,7 @@ website:
   favicon: icon.png
   search: 
     type: textbox
+  
   page-footer:
     right:
       - icon: envelope
@@ -27,7 +29,7 @@ website:
     left:
       - href: about.qmd
         text: "{{< fa regular address-card >}} About"
-      - href: research.qmd
+      - href: research/research.qmd
         text: "{{< fa burst >}} Research"
       - href: data.qmd
         text: "{{< fa database >}} Data"
@@ -45,7 +47,9 @@ website:
 
 format:
   html:
-    theme: [journal, custom.scss]
+    theme: 
+      light: [journal, custom.scss]
+      dark: [journal, deep.scss]
     css: styles.css
 
 editor: visual

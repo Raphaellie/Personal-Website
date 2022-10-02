@@ -38,7 +38,7 @@ Broadly interested in race and ethnic politics and political behavior in the rea
 
 <div>
 
-A passionate `r fa('r-project',fill = 'navy')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot. Check some of the graphs I proudly made with the help of `{tidyverse}` in the [Gallery](graphics.qmd) page.
+A passionate `r fa('r-project',fill = 'navy')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot. Check some of the graphs I proudly made with the help of `{tidyverse}` in the [Gaphics](graphics.qmd) page.
 
 </div>
 

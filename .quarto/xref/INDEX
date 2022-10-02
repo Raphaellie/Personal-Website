@@ -58,5 +58,14 @@
   },
   "research-2.qmd": {
     "research-2.html": "45790dd9"
+  },
+  "research/research.qmd": {
+    "research.html": "e45131d9"
+  },
+  "backup/research.qmd": {
+    "research.html": "43c07b61"
+  },
+  "backup/research-2.qmd": {
+    "research-2.html": "f38e15fb"
   }
 }

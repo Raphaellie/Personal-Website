@@ -1,0 +1,99 @@
+---
+title: "{{< fa burst >}} Research "
+fig-cap-location: bottom
+toc: true
+toc-depth: 3
+editor_options: 
+  chunk_output_type: console
+execute: 
+  echo: false
+---
+
+Both in the United States and around the globe, political cleavages along group boundaries increasingly impose an obstruction on democratic governance. I'm interested in the relationship between racial identities and political behavior in the context of American Politics. Specifically, my research revolves around the two bundles of questions:
+
+-   **Identities** {{< fa right-long >}} **Politics:** How racial identities shape the ways people perceive and respond to the political world? Through what mechanisms---cultural, psychological, and institutional--are racial identities endowed with political implications? What will the current political polarization look like when construed through a perspective that centers on the role of racial identities?
+
+-   **Politics** {{< fa right-long >}} **Identities:** How do people's politics mold their social identities in return? How do people reconcile the tensions between their political and social selves? For people embodying unusual combinations of politics and identities, like black Republicans or white Evangelical Democrats, which side will triumph in this internal struggle? Or is there a struggle at all?
+
+### Open Science
+
+An adherent to [Open Science](https://en.wikipedia.org/wiki/Open_science#Disadvantages) principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding **GitHub** repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both **PDF** and **HTML** versions will be available for most projects.
+
+```{r}
+library(pixture)
+```
+
+## Working Papers
+
+### Blues in Colors: Police Violence, Racial Representation, and White Attitude Change
+
+-   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the realtity of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
+
+-   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+```{r}
+pixfigure('racialized-police/view.png', w = '90%')
+```
+
+### See the Other Side: Local Party Images and Affective Polarization
+
+Leveraging variations of racialized party imageries at the level of congressional district from 2016 to 2020.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+```{r}
+pixfigure('local-party-images/view.png',w = '100%')
+```
+
+### Break the Party Images? The Electoral Impact of Minority Republican Candidates
+
+-   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the realtity of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
+
+-   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+```{r}
+pixfigure('minority-GOP/view.png',w = '100%')
+```
+
+### The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism in Poland
+
+-   *Coauthor with Weihan Zhang.* An emerging literature looks to historical legacies when trying to understand contemporary political divides, yet specific mechanisms remain empirically unsettled through which past institutions continuously shape political behavior over generations. Cultural or psychological persistence, which precipitates from unique, individual experiences of past generations, is often entangled with more structural mechanisms like social and economic path dependence of past institutions, making the two hard to distinguish.
+
+-   Exploiting Poland's Prussian partition in history and territory transfers after WWII, this study differentiates out the cultural persistence mechanism through within-treatment comparison. Under a spatial regression discontinuity design, our results indicate overall stronger reluctance toward political and national conservatism in former Prussian area, even after considering socioeconomic covariates. Furthermore, such liberal legacies of historical Prussian rule concentrate only on areas that didn't experienced substantial migration following WWII, cementing a cultural mechanism.
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-info btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+```
+```{r}
+pixfigure('poland/view.png',w = '70%')
+```
+
+## Works in Progress
+
+### Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes
+
+::: {.callout-note appearance="simple"}
+## Under Construction
+:::
+
+```{=html}
+<a href="about.html"><button type="button" class="btn btn-secondary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-secondary btn-sm">HTML</button>
+<button type="button" href="blog.html"  class="btn btn-secondary btn-sm">GitHub</button>
+```
+### 
