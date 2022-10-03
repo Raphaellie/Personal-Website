@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"><i class="fa-regular fa-address-card" aria-hidden="true"></i> About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/research.html"><i class="fa-solid fa-burst" aria-hidden="true"></i> Research</a>
+    <a class="nav-link" href="./research.html"><i class="fa-solid fa-burst" aria-hidden="true"></i> Research</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data.html"><i class="fa-solid fa-database" aria-hidden="true"></i> Data</a>
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#raphlot" id="toc-raphlot" class="nav-link active" data-scroll-target="#raphlot"><code>{RaPhlot}</code></a></li>
   <li><a href="#some-extra-advice" id="toc-some-extra-advice" class="nav-link" data-scroll-target="#some-extra-advice">Some extra advice</a>
   <ul class="collapse">
-  <li><a href="#survey-data-and-binary-outcome-models" id="toc-survey-data-and-binary-outcome-models" class="nav-link" data-scroll-target="#survey-data-and-binary-outcome-models">Survey data and Binary-Outcome Models</a></li>
+  <li><a href="#survey-data-and-binary-outcome-models" id="toc-survey-data-and-binary-outcome-models" class="nav-link" data-scroll-target="#survey-data-and-binary-outcome-models">Survey Data and Binary-Outcome Models</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -163,6 +163,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Here I have compiled a list or a commented bibliography, if you will, of resources that I have found useful along the course of my academic studies. By no means I am an expert on these topics but I do believe that these will help some people out. All efforts that I’ve dedicated to this page are dedicated to the memory of my grandfather, Jorge Pazmiño. Do not hesitate to contact me for suggestions and comments about these.</p>
+<!-- ::: progress -->
+<!-- ::: {.progress-bar .progress-bar-striped .progress-bar-animated .bg-info role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"} -->
+<!-- ::: -->
+<!-- ::: -->
 <section id="raphlot" class="level2">
 <h2 class="anchored" data-anchor-id="raphlot"><code>{RaPhlot}</code></h2>
 <p>R through RStudio, one of my longtime friends. Here you will find a list of resources which I believe can help you get started on your adventures with this marvelous software. It should be noted that I am including these resources with a practical rather than technical approach, which might be a little biased toward econometrics, so it is possible that people on other fields find other resources more helpful.</p>
@@ -179,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="some-extra-advice">Some extra advice</h2>
 <p>Working with R throughout my life as a student and for my personal project, I’ve met with endless issues. I’ve been able to solve most of them by googling my question and reading other people’s Stack Overflow’s questions, or reading books. However, there have been complicated problems which have had rather difficult solutions. In this section I’d like to give some unsolicited advice for you to not run into these problems or how to solve them efficiently if you do.</p>
 <section id="survey-data-and-binary-outcome-models" class="level3">
-<h3 class="anchored" data-anchor-id="survey-data-and-binary-outcome-models">Survey data and Binary-Outcome Models</h3>
+<h3 class="anchored" data-anchor-id="survey-data-and-binary-outcome-models">Survey Data and Binary-Outcome Models</h3>
 <p>During the data analysis for my capstone project, I worked extensively with survey data and eventually got to running binary-outcome models, namely logit and probit models, with the data. In the literature that used the datasets I was using, it was standard practice to run survey-weighted models to get complex sample-adjusted standard errors and adjusted coefficients. I had no trouble doing this using the <em>survey</em> package in R, however, I ran into trouble when I wanted to calculate average partial effects- it was impossible to do so with both the <code>margins()</code> or the <code>marginaleffects()</code> functions (both have their package named after themselves.).</p>
 <p>After much asking around and reading documentation, I found two solutions. The first one is complex and clunky, and not so effective, but it works. The whole thing is described in this <a href="https://stackoverflow.com/questions/68869935/reporting-average-marginal-effects-of-a-survey-weighted-logit-model-with-r/68873977#68873977">Stack Overflow question</a> that I made when I became desperate one time at 3 am.</p>
 <p>The second solution is the one that definitely solved the issue and I discovered it only recently. It is possible to calculate average partial effects of the models that had given me issues in the past when I <em>changed the data type of certain variables</em>. Since I had imported my data from Stata files (<code>.dat</code> files) using the <em>haven</em> package, when I ran <code>class()</code> on certain variables I found that it had <code>double</code> as the data type. I found that changing the data type to <code>integer</code> or <code>numeric</code> using the <code>as.*</code> functions solved the issue, now, running <code>marginaleffects()</code> on the model objects with the updated variables caused no issues. A certainly strange problem; I might write about it on the <a href="posts_home.qmd">Posts</a> section and/or contribute to <a href="https://lost-stats.github.io/">LOST</a> with this info.</p>

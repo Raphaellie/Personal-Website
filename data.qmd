@@ -1,8 +1,10 @@
 ---
 title: "{{< fa database >}} Data"
-bibliography: references_personal_website_resources.bib
 nocite: '@*'
+toc: true
 csl: econometrics.csl
 ---
 
-Here I have compiled a list or a commented bibliography, if you will, of resources that I have found useful along the course of my academic studies. By no means I am an expert on these topics but I do believe that these will help some people out. All efforts that I've dedicated to this page are dedicated to the memory of my grandfather, Jorge Pazmiño. Do not hesitate to contact me for suggestions and comments about these.
+## Party Images in Congressional Districts
+
+Combining 2016 and 2020 Cooperative Congressional Studies, in this dataset I measure the racial composition of Democratic and Republican partisans at the level of congressional district.

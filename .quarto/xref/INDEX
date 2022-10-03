@@ -67,5 +67,11 @@
   },
   "backup/research-2.qmd": {
     "research-2.html": "f38e15fb"
+  },
+  "posts/RaPhlot/index.qmd": {
+    "index.html": "42fa51c2"
+  },
+  "posts/os-r-quarto/index.qmd": {
+    "index.html": "27b78fac"
   }
 }

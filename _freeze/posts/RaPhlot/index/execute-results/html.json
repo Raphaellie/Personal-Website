@@ -1,0 +1,14 @@
+{
+  "hash": "33959a909786ae2b0e8288f1e5578c5a",
+  "result": {
+    "markdown": "---\ntitle: Meet {RaPhlot}\nabstract: |\n  A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\nauthor: \"Chaoyue R. Wang\"\ndate: \"2022-09-30\"\ncategories: [Code, R, EPOVB, DataViz]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

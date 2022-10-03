@@ -29,7 +29,7 @@ website:
     left:
       - href: about.qmd
         text: "{{< fa regular address-card >}} About"
-      - href: research/research.qmd
+      - href: research.qmd
         text: "{{< fa burst >}} Research"
       - href: data.qmd
         text: "{{< fa database >}} Data"

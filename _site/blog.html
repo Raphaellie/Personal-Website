@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"><i class="fa-regular fa-address-card" aria-hidden="true"></i> About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/research.html"><i class="fa-solid fa-burst" aria-hidden="true"></i> Research</a>
+    <a class="nav-link" href="./research.html"><i class="fa-solid fa-burst" aria-hidden="true"></i> Research</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data.html"><i class="fa-solid fa-database" aria-hidden="true"></i> Data</a>
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Code">Code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="DataViz">DataViz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Open Science">Open Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -185,90 +185,102 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>I’m interested in causal inference, the economics of corruption, financial economics as well as in labor and education economics. However, any research question that I find interesting is worth pursuing for me. I believe that research should be as reproducible as possible, so I try to always publish my source code for all my projects on my <a href="https://github.com/dsanchezp18">GitHub</a> and <a href="https://github.com/dsanchezp18">RPubs</a> sites. Further, along with very good academics at LIDE, I work on research and projects that can help the development of my home country, Ecuador. Some of the work that I’ve done with LIDE can be seen below or also at the organization’s blog, <a href="https://elquantificador.org/">El Quantificador</a>.</p>
+<hr>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+         <option value="listing-file-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1664467200000" data-listing-file-modified-sort="1664641809367" data-listing-reading-time-sort="0.045">
+<div class="quarto-post image-right" data-index="0" data-categories="Code,R,Public Opinion,DataViz" data-listing-date-sort="1664467200000" data-listing-file-modified-sort="1664787374539" data-listing-reading-time-sort="0.045">
 <div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/RaPhlot/index.html"> <img src="./posts/RaPhlot/image.png" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/post-with-code/index.html">
+<a href="./posts/RaPhlot/index.html">
 <h3 class="no-anchor listing-title">
-Post With Code
+Meet {RaPhlot}
 </h3>
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<a href="./posts/post-with-code/index.html">
 <div class="listing-description">
-This is a post with executable code.
+<p>A <code>R</code> package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/post-with-code/index.html">
+<a href="./posts/RaPhlot/index.html">
 <div class="listing-date">
 Sep 30, 2022
 </div>
 <div class="listing-author">
-Harlow Malloc
+Chaoyue R. Wang
+</div>
+<div class="metadata-value listing-file-modified">
+10/3/22, 4:56:14 PM
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1664208000000" data-listing-file-modified-sort="1664629302195" data-listing-reading-time-sort="0.16">
+<div class="quarto-post image-right" data-index="1" data-categories="Open Science,R,Quarto" data-listing-date-sort="1664208000000" data-listing-file-modified-sort="1664788303017" data-listing-reading-time-sort="0.16">
 <div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/os-r-quarto/index.html"> <img src="./posts/os-r-quarto/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/welcome/index.html">
+<a href="./posts/os-r-quarto/index.html">
 <h3 class="no-anchor listing-title">
-Welcome To My Blog
+Open Social Science Research with R and Quarto
 </h3>
 <div class="listing-subtitle">
 
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/welcome/index.html">
 <div class="listing-description">
-This is the first post in a Quarto blog. Welcome!
+<p>A <code>R</code> package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/index.html">
+<a href="./posts/os-r-quarto/index.html">
 <div class="listing-date">
 Sep 27, 2022
 </div>
 <div class="listing-author">
-Tristan O’Malley
+Chaoyue R. Wang
+</div>
+<div class="metadata-value listing-file-modified">
+10/3/22, 5:11:43 PM
 </div>
 </a>
 </div>

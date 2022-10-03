@@ -6,6 +6,11 @@ csl: econometrics.csl
 
 Here I have compiled a list or a commented bibliography, if you will, of resources that I have found useful along the course of my academic studies. By no means I am an expert on these topics but I do believe that these will help some people out. All efforts that I've dedicated to this page are dedicated to the memory of my grandfather, Jorge Pazmiño. Do not hesitate to contact me for suggestions and comments about these.
 
+<!-- ::: progress -->
+<!-- ::: {.progress-bar .progress-bar-striped .progress-bar-animated .bg-info role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"} -->
+<!-- ::: -->
+<!-- ::: -->
+
 ## `{RaPhlot}`
 
 R through RStudio, one of my longtime friends. Here you will find a list of resources which I believe can help you get started on your adventures with this marvelous software. It should be noted that I am including these resources with a practical rather than technical approach, which might be a little biased toward econometrics, so it is possible that people on other fields find other resources more helpful.
@@ -22,7 +27,7 @@ A great tutorial series and overall a great [YouTube channel](https://www.youtub
 
 Working with R throughout my life as a student and for my personal project, I've met with endless issues. I've been able to solve most of them by googling my question and reading other people's Stack Overflow's questions, or reading books. However, there have been complicated problems which have had rather difficult solutions. In this section I'd like to give some unsolicited advice for you to not run into these problems or how to solve them efficiently if you do.
 
-### Survey data and Binary-Outcome Models
+### Survey Data and Binary-Outcome Models
 
 During the data analysis for my capstone project, I worked extensively with survey data and eventually got to running binary-outcome models, namely logit and probit models, with the data. In the literature that used the datasets I was using, it was standard practice to run survey-weighted models to get complex sample-adjusted standard errors and adjusted coefficients. I had no trouble doing this using the *survey* package in R, however, I ran into trouble when I wanted to calculate average partial effects- it was impossible to do so with both the `margins()` or the `marginaleffects()` functions (both have their package named after themselves.).
 

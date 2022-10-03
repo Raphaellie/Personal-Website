@@ -14,7 +14,7 @@ about:
       href: https://github.com/dsanchezp18
     - icon: file-person-fill
       text: CV
-      href: files/cv/daniel_sanchez_cv.pdf
+      href: assets/cv/Wang-CV.pdf
     - icon: bar-chart-fill
       text: Quarto
       href: https://rpubs.com/dsanchezp998

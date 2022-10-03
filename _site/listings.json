@@ -2,15 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/RaPhlot/index.html",
+      "/posts/os-r-quarto/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/RaPhlot/index.html",
+      "/posts/os-r-quarto/index.html"
     ]
   }
 ]
