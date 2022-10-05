@@ -7,13 +7,6 @@
     "text": "Both in the United States and around the globe, political cleavages along group boundaries increasingly impose an obstruction on democratic governance. I’m interested in the relationship between racial identities and political behavior in the context of American Politics. Specifically, my research revolves around the two bundles of questions:"
   },
   {
-    "objectID": "research.html#racial-imagery",
-    "href": "research.html#racial-imagery",
-    "title": " Research",
-    "section": "Racial Imagery",
-    "text": "Racial Imagery\n\nOpen Science\nAn adherent to Open Science principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding GitHub repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both PDF and HTML versions will be available for most projects."
-  },
-  {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": " Research",
@@ -84,11 +77,11 @@
     "text": "{RaPhlot}"
   },
   {
-    "objectID": "software.html#some-extra-advice",
-    "href": "software.html#some-extra-advice",
+    "objectID": "software.html#latex-templates",
+    "href": "software.html#latex-templates",
     "title": " Software",
-    "section": "Some extra advice",
-    "text": "Some extra advice\nWorking with R throughout my life as a student and for my personal project, I’ve met with endless issues. I’ve been able to solve most of them by googling my question and reading other people’s Stack Overflow’s questions, or reading books. However, there have been complicated problems which have had rather difficult solutions. In this section I’d like to give some unsolicited advice for you to not run into these problems or how to solve them efficiently if you do.\n\nSurvey Data and Binary-Outcome Models\nDuring the data analysis for my capstone project, I worked extensively with survey data and eventually got to running binary-outcome models, namely logit and probit models, with the data. In the literature that used the datasets I was using, it was standard practice to run survey-weighted models to get complex sample-adjusted standard errors and adjusted coefficients. I had no trouble doing this using the survey package in R, however, I ran into trouble when I wanted to calculate average partial effects- it was impossible to do so with both the margins() or the marginaleffects() functions (both have their package named after themselves.).\nAfter much asking around and reading documentation, I found two solutions. The first one is complex and clunky, and not so effective, but it works. The whole thing is described in this Stack Overflow question that I made when I became desperate one time at 3 am.\nThe second solution is the one that definitely solved the issue and I discovered it only recently. It is possible to calculate average partial effects of the models that had given me issues in the past when I changed the data type of certain variables. Since I had imported my data from Stata files (.dat files) using the haven package, when I ran class() on certain variables I found that it had double as the data type. I found that changing the data type to integer or numeric using the as.* functions solved the issue, now, running marginaleffects() on the model objects with the updated variables caused no issues. A certainly strange problem; I might write about it on the Posts section and/or contribute to LOST with this info."
+    "section": "LaTex Templates",
+    "text": "LaTex Templates"
   },
   {
     "objectID": "data.html",
@@ -98,13 +91,6 @@
     "text": "Nationally, the Republican Party is predominantly white while the Democrat Party owes a larger section of its electoral base to the support among racial minorities. Distinct on the nationwide level, what are the local variations of racialized imageries of the two major parties? Combining 2016 and 2020 Cooperative Congressional Studies, this dataset details the racial compositions of Democratic and Republican partisans at the level of congressional district. For each congressional district, I break up its Republican and Democratic partisans by four racial groups: non-Hispanic whites, Hispanics, blacks, and others. Considering the fact that racial composition of any party in a district is generally conditioned by the racial structure of the local population, I match this dataset with American Community Survey five-year statistics on district-level racial demographics. Additional codes that connect observations to the shape files of congressional districts are also provided so that users can conveniently visualize the geographic pattern of party imageries across the United States.\nDataverse GitHub"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": " Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMeet {RaPhlot}\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 9:27:16 PM\n\n\n\n\n\n\n  \n\n\n\n\nOpen Social Science Research with R and Quarto\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "data.html#racial-compositions-of-local-police-officers",
     "href": "data.html#racial-compositions-of-local-police-officers",
     "title": " Data",
@@ -112,17 +98,10 @@
     "text": "Racial Compositions of Local Police Officers\nRepresentative bureaucracy, where the racial composition of government employees fairly reflects the racial landscape of the population they work to serve, has been theorized to foster better governance due to the diverse experiences it brings into decision making, and the symbolic proximity it builds with the served public. This said, are the tensions between policing agencies and the served neighbors a result of skewed representation in their workforce? To help address questions like such, this dataset utilizes the 2016 Law Enforcement Management and Administrative Statistics (LEMAS), a nationally representative sample of over 3,000 law enforcement agencies across many levels. I aggregate its race-gender count of police officers at the agency level, calculate the shares of each racial group (non-Hispanic white/Hispanic/black/other), and finally measure its descriptive representation quality by merging the agencies with the ACS demographic statistics of the locality it serves. Representation of a racial group within an agency is approached by the difference between its share in police officers and its percentage in local population. Additional `R` codes that helps to visualize the spatial distribution of the departments sampled are also provided.\nDataverse GitHub"
   },
   {
-    "objectID": "software.html#templates",
-    "href": "software.html#templates",
-    "title": " Software",
-    "section": "Templates",
-    "text": "Templates"
-  },
-  {
-    "objectID": "software.html#latex-templates",
-    "href": "software.html#latex-templates",
-    "title": " Software",
-    "section": "LaTex Templates",
-    "text": "LaTex Templates"
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": " Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMeet {RaPhlot}\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 9:27:16 PM\n\n\n\n\n\n\n  \n\n\n\n\nOpen Social Science Research with R and Quarto\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
   }
 ]
