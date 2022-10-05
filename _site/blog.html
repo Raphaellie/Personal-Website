@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-categories','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -235,6 +235,22 @@ Meet {RaPhlot}
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Code'); return false;">
+Code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EPOVB'); return false;">
+EPOVB
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('DataViz'); return false;">
+DataViz
+</div>
+</div>
+<a href="./posts/RaPhlot/index.html">
 <div class="listing-description">
 <p>A <code>R</code> package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.</p>
 </div>
@@ -266,6 +282,19 @@ Open Social Science Research with R and Quarto
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Open Science'); return false;">
+Open Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+</div>
+<a href="./posts/os-r-quarto/index.html">
 <div class="listing-description">
 <p>A <code>R</code> package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.</p>
 </div>

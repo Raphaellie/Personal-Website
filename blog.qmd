@@ -8,7 +8,7 @@ listing:
   filter-ui: true
   sort-ui: true
   feed: true
-  fields: [image, date, title, author, description, file-modified]
+  fields: [image, date, title, author, description, categories,file-modified]
 title-block-banner: false
 ---
 
