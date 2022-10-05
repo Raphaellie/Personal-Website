@@ -4,7 +4,7 @@ toc: true
 csl: econometrics.csl
 ---
 
-Here I have compiled a list or a commented bibliography, if you will, of resources that I have found useful along the course of my academic studies. By no means I am an expert on these topics but I do believe that these will help some people out. All efforts that I've dedicated to this page are dedicated to the memory of my grandfather, Jorge Pazmiño. Do not hesitate to contact me for suggestions and comments about these.
+Along my journey of learning and reseaching quantitative social sciences with `R` and other tools, I have been substantially benefiting from the vibrant, creative, and generous vibes of open source communities. <!--# From detecting coding errors for a stranger half a globe afar to devotedly developing useful packages regardless of material returns, these daily practices among open-source programmers shed light on the best facet of human nature and build up a hopeful, inspiring vision of our world. -->Once in a while I feel the urge to give back by sharing my own coding. Here are some of the software and resources that I developed with the wish that it may ease your burden when conducting public opinion research.
 
 <!-- ::: progress -->
 
@@ -16,4 +16,4 @@ Here I have compiled a list or a commented bibliography, if you will, of resourc
 
 ## `{RaPhlot}`
 
-## LaTex Templates 
+## LaTex Templates

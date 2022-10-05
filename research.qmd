@@ -80,8 +80,6 @@ pixfigure('research/poland/view.png',w = '70%')
 
 ### Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes
 
-::: {.callout-caution appearance="simple"}
-## Under Construction
-:::
+-   Challenging the conventional wisdom that social identities are "unmoved movers" that unilaterally affect people's political preferences, a burgeoning literature starts to look into whether prominent identities like race and religion are impressionable to political influences. Yet what is usually ignored or confused in this line of identity shift research is the temporal structure where politically motivated changing of identities takes place. It is one thing that long-time, consistent partisans alter their identities in accordance to prototypical partisans, and another when unstable party identifiers switch their group labels in order to match their changing politics. Building upon early insights from *the American Voter*, this study proposes a static-versus-dynamic framework of identity shift under political influence. I utilize a five-wave panel dataset to show that both kinds of identity shift exist among American partisans yet differ in terms of their magnitudes and the populations they impact.
 
-[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+[PDF](about.qmd){.btn .btn-primary .btn-sm .disabled role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm .disabled role="button"} [GitHub](about.qmd){.btn .btn-success .btn-sm .disabled role="button"}
