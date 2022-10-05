@@ -11,7 +11,7 @@ about:
       href: https://twitter.com/raphael_cwang
     - icon: github
       text: GitHub
-      href: https://github.com/dsanchezp18
+      href: https://github.com/Raphaellie
     - icon: file-person-fill
       text: CV
       href: assets/cv/Wang-CV.pdf

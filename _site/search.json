@@ -7,6 +7,13 @@
     "text": "Both in the United States and around the globe, political cleavages along group boundaries increasingly impose an obstruction on democratic governance. I’m interested in the relationship between racial identities and political behavior in the context of American Politics. Specifically, my research revolves around the two bundles of questions:"
   },
   {
+    "objectID": "research.html#racial-imagery",
+    "href": "research.html#racial-imagery",
+    "title": " Research",
+    "section": "Racial Imagery",
+    "text": "Racial Imagery\n\nOpen Science\nAn adherent to Open Science principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding GitHub repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both PDF and HTML versions will be available for most projects."
+  },
+  {
     "objectID": "research.html#working-papers",
     "href": "research.html#working-papers",
     "title": " Research",
@@ -25,12 +32,12 @@
     "href": "posts/RaPhlot/index.html",
     "title": "Meet {RaPhlot}",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "hist(Nile)"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/os-r-quarto/index.html",
+    "href": "posts/os-r-quarto/index.html",
+    "title": "Open Social Science Research with R and Quarto",
     "section": "",
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
@@ -39,7 +46,7 @@
     "href": "index.html",
     "title": "HOME",
     "section": "",
-    "text": "Code\n\n\nR\n\n\nPublic Opinion\n\n\nDataViz\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Science\n\n\nR\n\n\nQuarto\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 27, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\nR\n\n\nEPOVB\n\n\nDataViz\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Science\n\n\nR\n\n\nQuarto\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 27, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -74,7 +81,7 @@
     "href": "software.html#raphlot",
     "title": " Software",
     "section": "{RaPhlot}",
-    "text": "{RaPhlot}\nR through RStudio, one of my longtime friends. Here you will find a list of resources which I believe can help you get started on your adventures with this marvelous software. It should be noted that I am including these resources with a practical rather than technical approach, which might be a little biased toward econometrics, so it is possible that people on other fields find other resources more helpful.\n\nBook: R for Data Science (R4DS) by Hadley Wickham and Garrett Grolemund\n\nProbably the best introduction to the sofware that exists today. It has been endlessly recommended by all sorts of experts on R, and it is probably because it is a clear and practical guide on how to use R for all sorts of stuff (although the title says specifically data science I strongly believe this intro is fit for anybody who wants to use R). It will teach you what R is, what it isn’t and what it does best. It is a crash course on five major functions that the language has which are Wrangle, Program, Explore, Model and Communicate. However, because it is an introductory textbook, you’ll feel that it only scratches the surface on these three things. In my opinion the “wrangle” part is pretty comprehensive, but if you need more, you’ll have to go to other resources, specially for the “Communicate” part. The only difficulty you might find with this book is installing the software, but the next resource will help you with that.\n\nVideo series: Getting Started with R-Series I (and probably the rest of the channel) by Mike Marin & Ladan Hamadani\n\nA great tutorial series and overall a great YouTube channel, probably best for those that prefer learning by watching than by reading. Also, I believe that at least for installing a distribution of R and the RStudio IDE it is better to watch videos of other people doing so than reading it. The installation of the software might be one of the complications that R has compared to other software. The tutorial is done on a Mac, but as of right now I have not found that the installation process for a Windows computer is terribly different."
+    "text": "{RaPhlot}"
   },
   {
     "objectID": "software.html#some-extra-advice",
@@ -88,20 +95,34 @@
     "href": "data.html",
     "title": " Data",
     "section": "",
-    "text": "Combining 2016 and 2020 Cooperative Congressional Studies, in this dataset I measure the racial composition of Democratic and Republican partisans at the level of congressional district."
+    "text": "Nationally, the Republican Party is predominantly white while the Democrat Party owes a larger section of its electoral base to the support among racial minorities. Distinct on the nationwide level, what are the local variations of racialized imageries of the two major parties? Combining 2016 and 2020 Cooperative Congressional Studies, this dataset details the racial compositions of Democratic and Republican partisans at the level of congressional district. For each congressional district, I break up its Republican and Democratic partisans by four racial groups: non-Hispanic whites, Hispanics, blacks, and others. Considering the fact that racial composition of any party in a district is generally conditioned by the racial structure of the local population, I match this dataset with American Community Survey five-year statistics on district-level racial demographics. Additional codes that connect observations to the shape files of congressional districts are also provided so that users can conveniently visualize the geographic pattern of party imageries across the United States.\nDataverse GitHub"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": " Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMeet {RaPhlot}\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 4:56:14 PM\n\n\n\n\n\n\n  \n\n\n\n\nOpen Social Science Research with R and Quarto\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMeet {RaPhlot}\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 9:27:16 PM\n\n\n\n\n\n\n  \n\n\n\n\nOpen Social Science Research with R and Quarto\n\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/os-r-quarto/index.html",
-    "href": "posts/os-r-quarto/index.html",
-    "title": "Open Social Science Research with R and Quarto",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "objectID": "data.html#racial-compositions-of-local-police-officers",
+    "href": "data.html#racial-compositions-of-local-police-officers",
+    "title": " Data",
+    "section": "Racial Compositions of Local Police Officers",
+    "text": "Racial Compositions of Local Police Officers\nRepresentative bureaucracy, where the racial composition of government employees fairly reflects the racial landscape of the population they work to serve, has been theorized to foster better governance due to the diverse experiences it brings into decision making, and the symbolic proximity it builds with the served public. This said, are the tensions between policing agencies and the served neighbors a result of skewed representation in their workforce? To help address questions like such, this dataset utilizes the 2016 Law Enforcement Management and Administrative Statistics (LEMAS), a nationally representative sample of over 3,000 law enforcement agencies across many levels. I aggregate its race-gender count of police officers at the agency level, calculate the shares of each racial group (non-Hispanic white/Hispanic/black/other), and finally measure its descriptive representation quality by merging the agencies with the ACS demographic statistics of the locality it serves. Representation of a racial group within an agency is approached by the difference between its share in police officers and its percentage in local population. Additional `R` codes that helps to visualize the spatial distribution of the departments sampled are also provided.\nDataverse GitHub"
+  },
+  {
+    "objectID": "software.html#templates",
+    "href": "software.html#templates",
+    "title": " Software",
+    "section": "Templates",
+    "text": "Templates"
+  },
+  {
+    "objectID": "software.html#latex-templates",
+    "href": "software.html#latex-templates",
+    "title": " Software",
+    "section": "LaTex Templates",
+    "text": "LaTex Templates"
   }
 ]

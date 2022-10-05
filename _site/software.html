@@ -136,10 +136,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#raphlot" id="toc-raphlot" class="nav-link active" data-scroll-target="#raphlot"><code>{RaPhlot}</code></a></li>
-  <li><a href="#some-extra-advice" id="toc-some-extra-advice" class="nav-link" data-scroll-target="#some-extra-advice">Some extra advice</a>
-  <ul class="collapse">
-  <li><a href="#survey-data-and-binary-outcome-models" id="toc-survey-data-and-binary-outcome-models" class="nav-link" data-scroll-target="#survey-data-and-binary-outcome-models">Survey Data and Binary-Outcome Models</a></li>
-  </ul></li>
+  <li><a href="#latex-templates" id="toc-latex-templates" class="nav-link" data-scroll-target="#latex-templates">LaTex Templates</a></li>
   </ul>
 </nav>
     </div>
@@ -169,27 +166,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- ::: -->
 <section id="raphlot" class="level2">
 <h2 class="anchored" data-anchor-id="raphlot"><code>{RaPhlot}</code></h2>
-<p>R through RStudio, one of my longtime friends. Here you will find a list of resources which I believe can help you get started on your adventures with this marvelous software. It should be noted that I am including these resources with a practical rather than technical approach, which might be a little biased toward econometrics, so it is possible that people on other fields find other resources more helpful.</p>
-<ul>
-<li><strong>Book</strong>: <a href="https://r4ds.had.co.nz/">R for Data Science</a> (R4DS) by Hadley Wickham and Garrett Grolemund</li>
-</ul>
-<p>Probably the best introduction to the sofware that exists today. It has been endlessly recommended by all sorts of experts on R, and it is probably because it is a clear and practical guide on how to use R for all sorts of stuff (although the title says specifically data science I strongly believe this intro is fit for <em>anybody</em> who wants to use R). It will teach you what R is, what it isn’t and what it does best. It is a crash course on five major functions that the language has which are Wrangle, Program, Explore, Model and Communicate. However, because it is an introductory textbook, you’ll feel that it only scratches the surface on these three things. In my opinion the “wrangle” part is pretty comprehensive, but if you need more, you’ll have to go to other resources, specially for the “Communicate” part. The only difficulty you might find with this book is installing the software, but the next resource will help you with that.</p>
-<ul>
-<li><strong>Video series</strong>: <a href="https://www.youtube.com/playlist?list=PLqzoL9-eJTNARFXxgwbqGo56NtbJnB37A">Getting Started with R-Series I</a> (and probably the rest of the channel) by Mike Marin &amp; Ladan Hamadani</li>
-</ul>
-<p>A great tutorial series and overall a great <a href="https://www.youtube.com/c/marinstatlectures/featured">YouTube channel</a>, probably best for those that prefer learning by watching than by reading. Also, I believe that at least for installing a distribution of R and the RStudio IDE it is better to watch videos of other people doing so than reading it. The installation of the software might be one of the complications that R has compared to other software. The tutorial is done on a Mac, but as of right now I have not found that the installation process for a Windows computer is terribly different.</p>
 </section>
-<section id="some-extra-advice" class="level2">
-<h2 class="anchored" data-anchor-id="some-extra-advice">Some extra advice</h2>
-<p>Working with R throughout my life as a student and for my personal project, I’ve met with endless issues. I’ve been able to solve most of them by googling my question and reading other people’s Stack Overflow’s questions, or reading books. However, there have been complicated problems which have had rather difficult solutions. In this section I’d like to give some unsolicited advice for you to not run into these problems or how to solve them efficiently if you do.</p>
-<section id="survey-data-and-binary-outcome-models" class="level3">
-<h3 class="anchored" data-anchor-id="survey-data-and-binary-outcome-models">Survey Data and Binary-Outcome Models</h3>
-<p>During the data analysis for my capstone project, I worked extensively with survey data and eventually got to running binary-outcome models, namely logit and probit models, with the data. In the literature that used the datasets I was using, it was standard practice to run survey-weighted models to get complex sample-adjusted standard errors and adjusted coefficients. I had no trouble doing this using the <em>survey</em> package in R, however, I ran into trouble when I wanted to calculate average partial effects- it was impossible to do so with both the <code>margins()</code> or the <code>marginaleffects()</code> functions (both have their package named after themselves.).</p>
-<p>After much asking around and reading documentation, I found two solutions. The first one is complex and clunky, and not so effective, but it works. The whole thing is described in this <a href="https://stackoverflow.com/questions/68869935/reporting-average-marginal-effects-of-a-survey-weighted-logit-model-with-r/68873977#68873977">Stack Overflow question</a> that I made when I became desperate one time at 3 am.</p>
-<p>The second solution is the one that definitely solved the issue and I discovered it only recently. It is possible to calculate average partial effects of the models that had given me issues in the past when I <em>changed the data type of certain variables</em>. Since I had imported my data from Stata files (<code>.dat</code> files) using the <em>haven</em> package, when I ran <code>class()</code> on certain variables I found that it had <code>double</code> as the data type. I found that changing the data type to <code>integer</code> or <code>numeric</code> using the <code>as.*</code> functions solved the issue, now, running <code>marginaleffects()</code> on the model objects with the updated variables caused no issues. A certainly strange problem; I might write about it on the <a href="posts_home.qmd">Posts</a> section and/or contribute to <a href="https://lost-stats.github.io/">LOST</a> with this info.</p>
+<section id="latex-templates" class="level2">
+<h2 class="anchored" data-anchor-id="latex-templates">LaTex Templates</h2>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

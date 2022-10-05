@@ -4,12 +4,12 @@ abstract: |
   A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.
 author: "Chaoyue R. Wang"
 date: "2022-09-30"
-categories: [Code, R, Public Opinion, DataViz]
+categories: [Code, R, EPOVB, DataViz]
 image: "image.png"
 ---
 
 This is a post with executable code.
 
 ```{r}
-1 + 1
+scatter.smooth(Nile)
 ```

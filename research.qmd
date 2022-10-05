@@ -15,6 +15,8 @@ Both in the United States and around the globe, political cleavages along group 
 
 -   **Politics** {{< fa right-long >}} **Identities:** How do people's politics mold their social identities in return? How do people reconcile the tensions between their political and social selves? For people embodying unusual combinations of politics and identities, like black Republicans or white Evangelical Democrats, which side will triumph in this internal struggle? Or is there a struggle at all?
 
+### Racial Imagery
+
 ### Open Science
 
 An adherent to [Open Science](https://en.wikipedia.org/wiki/Open_science) principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding **GitHub** repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both **PDF** and **HTML** versions will be available for most projects.
@@ -49,7 +51,7 @@ pixfigure('research/racialized-police/view.png', w = '90%')
 [PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
 
 ```{r}
-pixfigure('research/local-party-images/view.png',w = '100%')
+pixfigure('research/local-party-images/view2.png',w = '100%')
 ```
 
 ### Break the Party Images? The Electoral Impact of Minority Republican Candidates
@@ -78,7 +80,7 @@ pixfigure('research/poland/view.png',w = '70%')
 
 ### Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes
 
-::: {.callout-note appearance="simple"}
+::: {.callout-caution appearance="simple"}
 ## Under Construction
 :::
 
