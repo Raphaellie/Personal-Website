@@ -27,7 +27,7 @@ library(pixture)
 
 ## Working Papers
 
-### Blues in Colors: Police Violence, Racial Representation, and White Attitude Change
+### Shades of Blue: Racial Imagery of Police and White Attitudes on Policing
 
 -   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the reality of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?
 

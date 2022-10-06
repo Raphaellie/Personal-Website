@@ -48,7 +48,7 @@ website:
 format:
   html:
     theme: 
-      light: [journal, custom.scss]
+      light: [journal, light.scss]
       dark: [journal, deep.scss]
     css: styles.css
 
