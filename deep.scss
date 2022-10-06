@@ -3,7 +3,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;600&family=PT+Sans:wght@400;700&display=swap');
 
-$font-family-sans-serif: "Lato" !default;
+$font-family-sans-serif: "Rubik" !default;
 
 
 // theme 1: black front + blue highlight + light bg
@@ -13,13 +13,15 @@ $font-family-sans-serif: "Lato" !default;
 // theme 2: blue bg + light font + gray highlight 
 // also set foreground as 'light'
 // $primary: #3e6695;  // #10378c #11233e #132e68 #405a93 #2b396b
-$navbar-bg: #405a93; 
+$navbar-bg: #30498f; // #30498f #405a93 #0c2c61 #323ab2
 $navbar-fg: #f0f1f2;
 $navbar-hl: DarkSeaGreen ;
-$body-bg: #2b396b ;
-$body-color: #f0f1f2 ;
+$body-bg: #f4f0eb ; // #f0f1f2 #2b396b #f4f0eb #edeff3 #2a6352
+// $body-color: #f0f1f2 ;
 $primary: SeaGreen; 
 
-$font-size-root: 100%;
+$code-block-bg: SteelBlue ;
+
+$font-size-root: 95%;
 
 

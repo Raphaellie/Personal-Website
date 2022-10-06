@@ -1,7 +1,7 @@
 {
-  "hash": "b32ae94f7dd874086bfafadb7e112cb8",
+  "hash": "4c147bd3f63e2de304af3d832fa83788",
   "result": {
-    "markdown": "---\ntitle: Meet {RaPhlot}\nabstract: |\n  A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\nauthor: \"Chaoyue R. Wang\"\ndate: \"2022-09-30\"\ncategories: [Code, R, EPOVB, DataViz]\nimage: \"image.png\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nhist(Nile)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "markdown": "---\ntitle: Meet {RaPhlot}\ndescription: |\n  A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\nauthor: \"Chaoyue R. Wang\"\ndate: \"2022-09-30\"\ncategories: [Code, R, EPOVB, DataViz]\nimage: \"image.png\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nscatter.smooth(Nile)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
     "supporting": [
       "index_files"
     ],
