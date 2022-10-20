@@ -44,27 +44,20 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "HOME",
-    "section": "",
-    "text": "Code\n\n\nR\n\n\nEPOVB\n\n\nDataViz\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Science\n\n\nR\n\n\nQuarto\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their…\n\n\n\nChaoyue R. Wang\n\n\nSep 27, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
     "title": "Chaoyue R. Wang",
     "section": "",
     "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     CV\n  \n  \n    \n     Quarto\n  \n\n  \n  \n\n\nI grew up in an industrial town in Chongqing, China, and went to Beijing for my undergraduate education. Currently I am a senior of Philosophy, Politics and Economics1 at Peking University. I also go by Raphael, my Catholic name.\nBroadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries—people’s racialized imagination of politically relevant categories—shape people’s perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
+    "objectID": "index.html#education",
+    "href": "index.html#education",
     "title": "Chaoyue R. Wang",
     "section": "Education ",
     "text": "Education \n\nBA in Philosophy, Politics and Economics (PPE) | expected 2023 | Peking University\nExchange Student, ASAP Parterships | Dec 2021 | University of Notre Dame"
   },
   {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
     "title": "Chaoyue R. Wang",
     "section": "Research Interests ",
     "text": "Research Interests \n\n\n\n\nAmerican Politics\nRace and Ethnic Politics (REP)\nPolitical Behavior\nPublic Opinion\n\n\n\n\nPolitics of Identity\nRacial Imagery\nSocial Cleavage\nPartisanship\nAffective Polarization"
@@ -95,6 +88,6 @@
     "href": "blog.html",
     "title": " Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nCode\n\n\nR\n\n\nEPOVB\n\n\nDataViz\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/7/22, 10:17:28 PM\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nOpen Science\n\n\nR\n\n\nQuarto\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nCode\n\n\nR\n\n\nEPOVB\n\n\nDataViz\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 30, 2022\n\n\nChaoyue R. Wang\n\n\n10/17/22, 12:50:42 PM\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nOpen Science\n\n\nR\n\n\nQuarto\n\n\n\n\nA R package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.\n\n\n\n\n\n\nSep 27, 2022\n\n\nChaoyue R. Wang\n\n\n10/3/22, 5:11:43 PM\n\n\n\n\n\n\nNo matching items"
   }
 ]

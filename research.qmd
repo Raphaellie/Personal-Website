@@ -39,7 +39,7 @@ library(pixture)
 <button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
 ```
 ```{r}
-pixfigure('research/racialized-police/view.png', w = '90%')
+pixfigure('research/racialized-police/view.png', w = '100%')
 ```
 
 ### See the Other Side: Local Party Images and Affective Polarization

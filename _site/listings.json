@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/RaPhlot/index.html",
-      "/posts/os-r-quarto/index.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/RaPhlot/index.html",

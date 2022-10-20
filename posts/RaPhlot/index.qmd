@@ -18,7 +18,7 @@ Consistent and high-quality as it is, there are also some conditions of ANES tha
 
 Second, though variables pertaining to essential political behavior like partisanship or ideology are almost asked in every survey from 1948 to 2020, a large number of variables are either relatively new or had only been asked during several releases. The official website of ANES offers continuity guides that report the timing span of a variable, but there is no standalone support in statistical softwares to report such continuity with just one click. This adds some potential frustration into our explorations of ANES since descriptive or regression analyses in `R` would report error or return `NA` values when no observation is detected.
 
-## Say Hi to `{RaPhlot}` 
+## Say Hi to `{RaPhlot}`
 
 The `{RaPhlot}` package is created to address these issues with additional support for analyzing how attitudinal indicators evolve in terms of their own trend and their relationship to other attitudes.
 

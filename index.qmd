@@ -1,13 +1,73 @@
 ---
-title: "HOME"
-
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Chaoyue R. Wang"
+about:
+  id: about-heading
+  template: trestles
+  image: profile.jpg
+  image-width: 14.5em
+  links: 
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/raphael_cwang
+    - icon: github
+      text: GitHub
+      href: https://github.com/Raphaellie
+    - icon: file-person-fill
+      text: CV
+      href: assets/cv/Wang-CV.pdf
+    - icon: bar-chart-fill
+      text: Quarto
+      href: https://rpubs.com/dsanchezp998
 ---
+
+::: {#about-heading}
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+# Hi There!
+
+I grew up in an industrial town in Chongqing, China, and went to Beijing for my undergraduate education. Currently I am a senior of Philosophy, Politics and Economics[^1] at Peking University. I also go by Raphael, my Catholic name.
+
+Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries---people's racialized imagination of politically relevant categories---shape people's perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.
+:::
+
+[^1]: Rather than three individual majors as it may confusingly sound like, Philosophy, Politics and Economics (PPE) is actually one combined, interdisciplinary major that [originates from the University of Oxford](https://en.wikipedia.org/wiki/Philosophy,_politics_and_economics) in the 1920s.
+
+<div>
+
+A passionate `r fa('r-project',fill = 'navy')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot. Check some of the graphs I proudly made with the help of `{tidyverse}` in the [Gaphics](graphics.qmd) page.
+
+</div>
+
+[^2]: `r fa('r-project',fill = 'navy')` is actually such a powerhouse that I can almost conduct finish every stage of a research project entirely within the environment of `RStudio` , from data cleaning to in-depth analyses to writing the final manuscript! And despite my unapologetic love for R, I did set out my journey of quantitative social science in the arms of `Stata`, which I still use once in while for its stability and clarity in inspecting and labeling data.
+
+## Education `r fa("graduation-cap")`
+
+-   BA in Philosophy, Politics and Economics (PPE) \| expected 2023 \| **Peking University**
+-   Exchange Student, ASAP Parterships \| Dec 2021 \| **University of Notre Dame**
+
+## Research Interests `r fa('book-open-reader')`
+
+::: columns
+::: column
+<!-- #### Area -->
+
+-   American Politics
+-   Race and Ethnic Politics (REP)
+-   Political Behavior
+-   Public Opinion
+:::
+
+::: column
+<!-- #### Topic -->
+
+-   Politics of Identity
+-   Racial Imagery
+-   Social Cleavage
+-   Partisanship
+-   Affective Polarization
+:::
+:::

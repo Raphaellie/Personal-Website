@@ -27,7 +27,7 @@ website:
     background: light
     foreground: dark
     left:
-      - href: about.qmd
+      - href: index.qmd
         text: "{{< fa regular address-card >}} About"
       - href: research.qmd
         text: "{{< fa burst >}} Research"
@@ -35,8 +35,8 @@ website:
         text: "{{< fa database >}} Data"
       - href: software.qmd
         text: "{{< fa window-restore >}} Software"
-      - href: graphics.qmd
-        text: "{{< fa chart-bar >}} Graphics"
+      # - href: graphics.qmd
+      #   text: "{{< fa chart-bar >}} Graphics"
       - href: blog.qmd
         text: "{{< fa regular comment >}} Blog"
     right: 
@@ -48,9 +48,8 @@ website:
 format:
   html:
     theme: 
-      light: [journal, light.scss]
-      dark: [journal, deep.scss]
+      light: [journal, deep.scss]
+      dark: [journal, light.scss]
     css: styles.css
 
 editor: visual
-
