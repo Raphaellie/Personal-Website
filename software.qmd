@@ -7,4 +7,6 @@ csl: econometrics.csl
 
 ## `{RaPhlot}`
 
+American National Election Studies (ANES) is probably the most authentic survey used in studies of American political behavior. The continuity and consistency of cumulative ANES data across years make it a useful window for public opinion scholars to observe long-term transformations of American politics at the individual level. This `R` packages I develop can facilitate this task with helpful functions that help you to painlessly track the trends of not only individual variables but associations between them. Check this post for how to use `{RaPhlot}` to ease your explorations of ANES data.
+
 ## LaTex Templates
