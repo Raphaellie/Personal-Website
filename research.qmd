@@ -31,7 +31,7 @@ library(pixture)
 -   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
 
 ```{=html}
-<a href="about.html"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
+<a href="assets/papers/racialized-police.pdf"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
 <button type="button" class="btn btn-info btn-sm">HTML</button>
 <button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
 ```
@@ -45,7 +45,7 @@ pixfigure('research/racialized-police/view.png', w = '100%')
 
 -   This research builds an index for party images for each congressional district using 2016 and 2020 Cooperative Election Studies, and links these local measures with 2020 American Election Studies where detailed indicators of polarization behavior are included. I find that the further the racial images of local partisans deviate from national stereotypes, the lower level of affective polarization is observed among the district's respondents. The deviation of local party images also undermines the influence group feelings have in people's polarization behavior. Heterogeneities by party and racial group are discussed.
 
-[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+[PDF](assets/papers/local-images.pdf){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
 
 ```{r}
 pixfigure('research/local-party-images/view2.png',w = '100%')
@@ -55,7 +55,7 @@ pixfigure('research/local-party-images/view2.png',w = '100%')
 
 -   Dominantly white as the GOP is for now, the overall diversification of the U.S. population leads to a historic number of minority Republicans running for and serving in federal offices. With the Republican Party still locked with white Americans and their racial resentment, how do the emergence of these minority Republicans in congressional races enter into voters' perceptions and condition their vote choices as partisans? And further, how do their presence challenge the *status quo* of party-race alignments? Drawing upon respondent's self-reported perception of their house candidates from 2010 to 2020, I find that the perception that the GOP candidate is non-white results in a reduction in party-line voting, a lessening of partisan rigidity, but also an eroding of electoral participation.
 
-[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+[PDF](assets/papers/minority-GOP.pdf){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
 
 ```{r}
 pixfigure('research/minority-GOP/view.png',w = '100%')
@@ -67,7 +67,7 @@ pixfigure('research/minority-GOP/view.png',w = '100%')
 
 -   Exploiting Poland's Prussian partition in history and territory transfers after WWII, this study differentiates out the cultural persistence mechanism through within-treatment comparison. Under a spatial regression discontinuity design, our results indicate overall stronger reluctance toward political and national conservatism in former Prussian area, even after considering socioeconomic covariates. Furthermore, such liberal legacies of historical Prussian rule concentrate only on areas that didn't experienced substantial migration following WWII, cementing a cultural mechanism.
 
-[PDF](){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+[PDF](assets/papers/poland.pdf){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
 
 ```{r}
 pixfigure('research/poland/view.png',w = '70%')
