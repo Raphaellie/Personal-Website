@@ -48,8 +48,8 @@ website:
 format:
   html:
     theme: 
-      light: [journal, deep.scss]
-      dark: [journal, light.scss]
+      light: [journal, light.scss]
+      dark: [journal, deep.scss]
     css: styles.css
 
 editor: visual

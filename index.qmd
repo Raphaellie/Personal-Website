@@ -4,7 +4,7 @@ about:
   id: about-heading
   template: trestles
   image: profile2.jpg
-  image-width: 14.5em
+  image-width: 14em
   links: 
     - icon: twitter
       text: Twitter
