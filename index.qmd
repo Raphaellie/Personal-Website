@@ -3,7 +3,7 @@ title: "Chaoyue R. Wang"
 about:
   id: about-heading
   template: trestles
-  image: profile.jpg
+  image: profile2.jpg
   image-width: 14.5em
   links: 
     - icon: twitter
