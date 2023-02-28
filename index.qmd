@@ -1,9 +1,9 @@
 ---
-title: "Chaoyue R. Wang"
+title: "**Chaoyue R. Wang**"
 about:
   # id: about-heading
   template: solana
-  image: profile.jpg
+  image: profile3.jpeg
   image-width: 9em
   links: 
     - icon: twitter
@@ -29,7 +29,7 @@ about:
 library(fontawesome)
 ```
 
-### Hi There!
+[Hi there! Welcome to my personal website!]{.lead}
 
 I grew up in an industrial town in Chongqing, China, and went to Beijing for my undergraduate education. Currently I am a senior of Philosophy, Politics and Economics[^1] at Peking University. I also go by Raphael, my Catholic name.
 
