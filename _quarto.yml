@@ -22,9 +22,9 @@ website:
     left: "Chaoyue Wang {{< fa solid copyright >}} 2022. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
   
   navbar:
-    title: "CHAOYUE WANG"
+    title: " "
     logo: icon.png
-    background: light
+    background: secondary
     foreground: dark
     left:
       - href: index.qmd
@@ -47,9 +47,8 @@ website:
 
 format:
   html:
-    theme: 
-      light: [journal, light.scss]
-      dark: [journal, deep.scss]
+    theme: [lumen,light.scss]
+      # dark: [lumen, deep.scss]
     css: styles.css
 
 editor: visual

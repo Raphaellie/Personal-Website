@@ -31,9 +31,9 @@ library(pixture)
 -   Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
 
 ```{=html}
-<a href="assets/papers/racialized-police.pdf"><button type="button" class="btn btn-primary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-info btn-sm">HTML</button>
-<button type="button" href="blog.html"  class="btn btn-success btn-sm">GitHub</button>
+<a href="assets/papers/racialized-police.pdf"><button type="button" class="btn btn-outline-primary btn-sm">PDF</button></a>
+<button type="button" class="btn btn-outline-info btn-sm">HTML</button>
+<button type="button" href="https://github.com/raphaellie/racialized-police"  class="btn btn-outline-success btn-sm">GitHub</button>
 ```
 ```{r}
 pixfigure('research/racialized-police/view.png', w = '100%')
@@ -45,7 +45,7 @@ pixfigure('research/racialized-police/view.png', w = '100%')
 
 -   This research builds an index for party images for each congressional district using 2016 and 2020 Cooperative Election Studies, and links these local measures with 2020 American Election Studies where detailed indicators of polarization behavior are included. I find that the further the racial images of local partisans deviate from national stereotypes, the lower level of affective polarization is observed among the district's respondents. The deviation of local party images also undermines the influence group feelings have in people's polarization behavior. Heterogeneities by party and racial group are discussed.
 
-[PDF](assets/papers/local-images.pdf){.btn .btn-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-info .btn-sm role="button"} [GitHub](){.btn .btn-success .btn-sm role="button"}
+[PDF](assets/papers/local-images.pdf){.btn .btn-outline-primary .btn-sm role="button"} [HTML](..\about.qmd){.btn .btn-outline-info .btn-sm role="button"} [GitHub](https://github.com/raphaellie/racialized-police){.btn .btn-outline-success .btn-sm role="button"}
 
 ```{r}
 pixfigure('research/local-party-images/view2.png',w = '100%')
