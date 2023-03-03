@@ -1,6 +1,16 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/research.html",
+    "items": [
+      "/working-papers/minority-GOP/minority-gop.html",
+      "/working-papers/identity-shift/identity-shift.html",
+      "/working-papers/local-party-images/local-images.html",
+      "/working-papers/racialized-police/racialized-police.html",
+      "/working-papers/poland/poland.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
     "items": [
       "/posts/RaPhlot/index.html",
       "/posts/os-r-quarto/index.html"

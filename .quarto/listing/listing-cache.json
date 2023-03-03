@@ -1,6 +1,9 @@
 {
   "listingMap": {
-    "blog.qmd": [
+    "research.qmd": [
+      "working-papers"
+    ],
+    "posts.qmd": [
       "posts"
     ]
   }

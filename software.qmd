@@ -1,7 +1,7 @@
 ---
-title: "{{< fa window-restore >}} Software"
+title: "**{{< fa solid floppy-disk >}} Software**"
 toc: false
-title-block-banner: true
+title-block-banner: false
 csl: econometrics.csl
 ---
 

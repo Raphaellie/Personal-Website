@@ -73,5 +73,35 @@
   },
   "posts/os-r-quarto/index.qmd": {
     "index.html": "27b78fac"
+  },
+  "research/poland/poland.qmd": {
+    "poland.html": "872b4a03"
+  },
+  "research/local-party-images/local-images.qmd": {
+    "local-images.html": "3f64ca88"
+  },
+  "research/identity-shift/identity-shift.qmd": {
+    "identity-shift.html": "81385f3f"
+  },
+  "research/minority-GOP/minority-gop.qmd": {
+    "minority-gop.html": "4dc61e8d"
+  },
+  "posts.qmd": {
+    "posts.html": "16ed6385"
+  },
+  "working-papers/local-party-images/local-images.qmd": {
+    "local-images.html": "9e7575ef"
+  },
+  "working-papers/poland/poland.qmd": {
+    "poland.html": "77b3c48a"
+  },
+  "working-papers/identity-shift/identity-shift.qmd": {
+    "identity-shift.html": "5629da50"
+  },
+  "working-papers/racialized-police/racialized-police.qmd": {
+    "racialized-police.html": "e1bbb4ae"
+  },
+  "working-papers/minority-GOP/minority-gop.qmd": {
+    "minority-gop.html": "2fe07c6d"
   }
 }

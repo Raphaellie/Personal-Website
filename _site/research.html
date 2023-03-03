@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title> Research</title>
+<title>CHAOYUE -  Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./icon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,12 +63,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<link href="site_libs/simplelightbox-0/css/simplelightbox.css" rel="stylesheet">
-<script src="site_libs/simplelightbox-0/js/simplelightbox.js"></script>
-<link href="site_libs/pixfigure-0/css/pixfigure.css" rel="stylesheet">
-<script src="site_libs/pixfigure-binding-0.0.2.2001/pixfigure.js"></script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-working-papers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-working-papers'] = new List('listing-working-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -78,8 +105,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./icon.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><strong>CRW</strong></span>
+    <span class="navbar-title"><span class="smallcaps"><strong>Chaoyue R. Wang</strong></span></span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -87,23 +117,6 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"><i class="fa-regular fa-address-card" aria-hidden="true"></i> About</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"><i class="fa-solid fa-cube" aria-hidden="true"></i> Research</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data.html"><i class="fa-solid fa-database" aria-hidden="true"></i> Data</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./software.html"><i class="fa-solid fa-window-restore" aria-hidden="true"></i> Software</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"><i class="fa-regular fa-comment" aria-hidden="true"></i> Blog</a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/raphael_cwang"><i class="bi bi-twitter" role="img">
 </i> 
@@ -114,6 +127,28 @@ ul.task-list li input[type="checkbox"] {
 </i> 
  </a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chyrwang@gmail.com"><i class="bi bi-envelope" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"><i class="fa-solid fa-circle-user" aria-hidden="true"></i> About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" aria-current="page"><i class="fa-solid fa-cube" aria-hidden="true"></i> Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"><i class="fa-solid fa-database" aria-hidden="true"></i> Data</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html"><i class="fa-solid fa-floppy-disk" aria-hidden="true"></i> Software</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html"><i class="fa-solid fa-fire" aria-hidden="true"></i> Posts</a>
+  </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -121,113 +156,136 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title"><i class="fa-solid fa-cube" aria-hidden="true"></i> Research</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><strong><i class="fa-solid fa-cube" aria-hidden="true"></i> Research</strong></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="from-identities-to-politics" class="level3">
-<h3 class="anchored" data-anchor-id="from-identities-to-politics">From Identities to Politics</h3>
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+
+</div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Research Interest</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Open Science</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Focusing on American politics, I am particularly interested in how racial identities shape the way people perceive and respond to the political world, and to what extent such racialization of political behavior is responsible for affective polarization characterizing the American public. To answer these questions, I look into the role of <strong>racial imagery</strong>, that is, racialized imagination of politically relevant categories. I contend that given the prevalence of group-centrism in opinion formation, people approach an issue or a party not just through ideological concerns, but also by considering whether people at the center of the category looks racially like or unlike themselves. My research endeavors to understand how racial imagery of various issues affects people’s preferences, how this translates into ideological and affective divides along racial lines, and how varied strength of racial imagery can lend us insights into resolving racial polarization and building a healthier democracy.</p>
-</section>
-<section id="open-science" class="level3">
-<h3 class="anchored" data-anchor-id="open-science">Open Science</h3>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>An adherent to <a href="https://en.wikipedia.org/wiki/Open_science">Open Science</a> principles, I endeavor to make every stage of my research, from data collection to statistical analyses to even manuscript writing, as transparent and accessible as possible. For every finished project listed under this Research page, I provide a link button that directs to the corresponding <strong>GitHub</strong> repository, where codes and data necessary to replicate the results are stored and tracked. To optimize your reading experiences on screen, both <strong>PDF</strong> and <strong>HTML</strong> versions will be available for most projects.</p>
-<div class="cell">
-
 </div>
-</section>
+</div>
+</div>
 <section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<section id="shades-of-blue-racial-imagery-of-police-and-white-attitudes-on-policing" class="level3">
-<h3 class="anchored" data-anchor-id="shades-of-blue-racial-imagery-of-police-and-white-attitudes-on-policing">Shades of Blue: Racial Imagery of Police and White Attitudes on Policing</h3>
-<ul>
-<li><p>Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the reality of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites’ excessive representation in police workforce that fosters a “white imagery” of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away?</p></li>
-<li><p>Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites’ share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.</p></li>
-</ul>
-<a href="assets/papers/racialized-police.pdf"><button type="button" class="btn btn-outline-primary btn-sm">PDF</button></a>
-<button type="button" class="btn btn-outline-info btn-sm">HTML</button>
-<button type="button" href="https://github.com/raphaellie/racialized-police" class="btn btn-outline-success btn-sm">GitHub</button>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-1e7705b708e6fae67bb7" style="width:100%;height:100%;" class="pixfigure html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1e7705b708e6fae67bb7">{"x":{"path":["research/racialized-police/view.png"],"caption":[],"h":"auto","w":"100%","fit":"cover","position":"center"},"evals":[],"jsHooks":[]}</script>
+<h2 class="anchored" data-anchor-id="working-papers"><strong>Working Papers</strong></h2>
+<div id="listing-working-papers" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-working-papers-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-working-papers'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Updated - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Updated - Newest
+        </option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Updated</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="Fri Mar 03 2023 17:30:35 GMT+0800 (China Standard Time)" data-listing-file-modified-sort="1677835835839" data-listing-reading-time-sort="0.065" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+Break the Party Images? The Electoral Impact of Minority Republican Candidates
+</td>
+<td class="listing-date">
+<a href="./working-papers/minority-GOP/minority-gop.html" class="date">3/3/23</a>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="Fri Mar 03 2023 19:02:21 GMT+0800 (China Standard Time)" data-listing-file-modified-sort="1677841341049" data-listing-reading-time-sort="0.065" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes
+</td>
+<td class="listing-date">
+<a href="./working-papers/identity-shift/identity-shift.html" class="date">3/3/23</a>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="Fri Mar 03 2023 18:35:13 GMT+0800 (China Standard Time)" data-listing-file-modified-sort="1677839713217" data-listing-reading-time-sort="0.065" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+See the Other Side: Local Party Images and Affective Polarization
+</td>
+<td class="listing-date">
+<a href="./working-papers/local-party-images/local-images.html" class="date">3/3/23</a>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="Fri Mar 03 2023 18:34:23 GMT+0800 (China Standard Time)" data-listing-file-modified-sort="1677839663139" data-listing-reading-time-sort="0.065" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+Shades of Blue: Racial Imagery of Police and White Attitudes on Policing
+</td>
+<td class="listing-date">
+<a href="./working-papers/racialized-police/racialized-police.html" class="date">3/3/23</a>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="Fri Mar 03 2023 18:34:39 GMT+0800 (China Standard Time)" data-listing-file-modified-sort="1677839679283" data-listing-reading-time-sort="0.065" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-title">
+The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism in Poland
+</td>
+<td class="listing-date">
+<a href="./working-papers/poland/poland.html" class="date">3/3/23</a>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
-</section>
-<section id="see-the-other-side-local-party-images-and-affective-polarization" class="level3">
-<h3 class="anchored" data-anchor-id="see-the-other-side-local-party-images-and-affective-polarization">See the Other Side: Local Party Images and Affective Polarization</h3>
-<ul>
-<li><p>Social sorting, the situation where social groups become strongly interconnected with political parties, has been examined as a contributing factor to affective polarization in American politics. By cultivating party images represented through prominent social identities, this process instills group tensions into party politics. Yet few existing studies takes advantage of local variations of partisan composition to investigate whether the extent to which current political polarization are affected by “parties in our head”.</p></li>
-<li><p>This research builds an index for party images for each congressional district using 2016 and 2020 Cooperative Election Studies, and links these local measures with 2020 American Election Studies where detailed indicators of polarization behavior are included. I find that the further the racial images of local partisans deviate from national stereotypes, the lower level of affective polarization is observed among the district’s respondents. The deviation of local party images also undermines the influence group feelings have in people’s polarization behavior. Heterogeneities by party and racial group are discussed.</p></li>
-</ul>
-<p><a href="assets/papers/local-images.pdf" class="btn btn-outline-primary btn-sm" role="button">PDF</a> <a href="..\about.qmd" class="btn btn-outline-info btn-sm" role="button">HTML</a> <a href="https://github.com/raphaellie/racialized-police" class="btn btn-outline-success btn-sm" role="button">GitHub</a></p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-9893a075a9c8fd172107" style="width:100%;height:100%;" class="pixfigure html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9893a075a9c8fd172107">{"x":{"path":["research/local-party-images/view2.png"],"caption":[],"h":"auto","w":"100%","fit":"cover","position":"center"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="break-the-party-images-the-electoral-impact-of-minority-republican-candidates" class="level3">
-<h3 class="anchored" data-anchor-id="break-the-party-images-the-electoral-impact-of-minority-republican-candidates">Break the Party Images? The Electoral Impact of Minority Republican Candidates</h3>
-<ul>
-<li>Dominantly white as the GOP is for now, the overall diversification of the U.S. population leads to a historic number of minority Republicans running for and serving in federal offices. With the Republican Party still locked with white Americans and their racial resentment, how do the emergence of these minority Republicans in congressional races enter into voters’ perceptions and condition their vote choices as partisans? And further, how do their presence challenge the <em>status quo</em> of party-race alignments? Drawing upon respondent’s self-reported perception of their house candidates from 2010 to 2020, I find that the perception that the GOP candidate is non-white results in a reduction in party-line voting, a lessening of partisan rigidity, but also an eroding of electoral participation.</li>
-</ul>
-<p><a href="assets/papers/minority-GOP.pdf" class="btn btn-primary btn-sm" role="button">PDF</a> <a href="..\about.qmd" class="btn btn-info btn-sm" role="button">HTML</a> <a href="" class="btn btn-success btn-sm" role="button">GitHub</a></p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-bc128347cfd5d4ee9835" style="width:100%;height:100%;" class="pixfigure html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bc128347cfd5d4ee9835">{"x":{"path":["research/minority-GOP/view.png"],"caption":[],"h":"auto","w":"100%","fit":"cover","position":"center"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="the-gloom-over-the-mind-prussian-rule-cultural-persistence-and-political-liberalism-in-poland" class="level3">
-<h3 class="anchored" data-anchor-id="the-gloom-over-the-mind-prussian-rule-cultural-persistence-and-political-liberalism-in-poland">The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism in Poland</h3>
-<ul>
-<li><p><em>Coauthor with Weihan Zhang.</em> An emerging literature looks to historical legacies when trying to understand contemporary political divides, yet specific mechanisms remain empirically unsettled through which past institutions continuously shape political behavior over generations. Cultural or psychological persistence, which precipitates from unique, individual experiences of past generations, is often entangled with more structural mechanisms like social and economic path dependence of past institutions, making the two hard to distinguish.</p></li>
-<li><p>Exploiting Poland’s Prussian partition in history and territory transfers after WWII, this study differentiates out the cultural persistence mechanism through within-treatment comparison. Under a spatial regression discontinuity design, our results indicate overall stronger reluctance toward political and national conservatism in former Prussian area, even after considering socioeconomic covariates. Furthermore, such liberal legacies of historical Prussian rule concentrate only on areas that didn’t experienced substantial migration following WWII, cementing a cultural mechanism.</p></li>
-</ul>
-<p><a href="assets/papers/poland.pdf" class="btn btn-primary btn-sm" role="button">PDF</a> <a href="..\about.qmd" class="btn btn-info btn-sm" role="button">HTML</a> <a href="" class="btn btn-success btn-sm" role="button">GitHub</a></p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-49fb0710e245aff773c3" style="width:100%;height:100%;" class="pixfigure html-widget"></div>
-<script type="application/json" data-for="htmlwidget-49fb0710e245aff773c3">{"x":{"path":["research/poland/view.png"],"caption":[],"h":"auto","w":"70%","fit":"cover","position":"center"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-</section>
-<section id="works-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="works-in-progress">Works in Progress</h2>
-<section id="follow-the-party-static-and-dynamic-shifting-of-identities-toward-party-prototypes" class="level3">
-<h3 class="anchored" data-anchor-id="follow-the-party-static-and-dynamic-shifting-of-identities-toward-party-prototypes">Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes</h3>
-<ul>
-<li>Challenging the conventional wisdom that social identities are “unmoved movers” that unilaterally affect people’s political preferences, a burgeoning literature starts to look into whether prominent identities like race and religion are impressionable to political influences. Yet what is usually ignored or confused in this line of identity shift research is the temporal structure where politically motivated changing of identities takes place. It is one thing that long-time, consistent partisans alter their identities in accordance to prototypical partisans, and another when unstable party identifiers switch their group labels in order to match their changing politics. Building upon early insights from <em>the American Voter</em>, this study proposes a static-versus-dynamic framework of identity shift under political influence. I utilize a five-wave panel dataset to show that both kinds of identity shift exist among American partisans yet differ in terms of their magnitudes and the populations they impact.</li>
-</ul>
-<p><a href="about.qmd" class="btn btn-primary btn-sm disabled" role="button">PDF</a> <a href="..\about.qmd" class="btn btn-info btn-sm disabled" role="button">HTML</a> <a href="about.qmd" class="btn btn-success btn-sm disabled" role="button">GitHub</a></p>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->
@@ -336,12 +394,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="mailto:chyrwang@gmail.com">
-      <i class="bi bi-envelope" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/raphael_cwang">
       <i class="bi bi-twitter" role="img">
 </i> 
@@ -350,6 +402,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Raphaellie">
       <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:chyrwang@gmail.com">
+      <i class="bi bi-envelope" role="img">
 </i> 
     </a>
   </li>  

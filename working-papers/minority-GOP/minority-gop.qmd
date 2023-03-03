@@ -1,0 +1,13 @@
+---
+title: "Break the Party Images? The Electoral Impact of Minority Republican Candidates"
+abstract: |
+  Dominantly white as the GOP is for now, the overall diversification of the U.S. population leads to a historic number of minority Republicans running for and serving in federal offices. With the Republican Party still locked with white Americans and their racial resentment, how do the emergence of these minority Republicans in congressional races enter into voters' perceptions and condition their vote choices as partisans? And further, how do their presence challenge the *status quo* of party-race alignments? Drawing upon respondent's self-reported perception of their house candidates from 2010 to 2020, I find that the perception that the GOP candidate is non-white results in a reduction in party-line voting, a lessening of partisan rigidity, but also an eroding of electoral participation.
+date: last-modified
+author: "Chaoyue R. Wang"
+---
+
+## Links
+
+[PDF](../../assets/papers/racialized-police.pdf){.btn .btn-outline-primary .btn-sm role="button"} [HTML](../../index.qmd){.btn .btn-outline-info .btn-sm role="button"} [GitHub](https://github.com/raphaellie/racialized-police){.btn .btn-outline-info .btn-sm role="button"}
+
+## Figures

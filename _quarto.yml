@@ -5,50 +5,53 @@ project:
   - "research/"
 
 website:
-  # title: "CHAOYUE"
+  title: "CHAOYUE"
   description: "Chaoyue Wang's Personal Website"
   favicon: icon.png
   search: 
     type: textbox
-  
+
   page-footer:
     right:
-      - icon: envelope
-        href: mailto:chyrwang@gmail.com
       - icon: twitter
         href: https://twitter.com/raphael_cwang
       - icon: github
         href: https://github.com/Raphaellie
+      - icon: envelope
+        href: mailto:chyrwang@gmail.com
     left: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
   
   navbar:
-    title: "**CRW**"
-    # logo: icon.png
-    background: secondary
+    title: "[**Chaoyue R. Wang**]{.smallcaps}"
+    logo: icon.png
+    background: light
     foreground: dark
-    left:
+    right:
       - href: index.qmd
-        text: "{{< fa regular address-card >}} About"
+        text: "{{< fa solid circle-user >}} About"
       - href: research.qmd
         text: "{{< fa cube >}} Research"
       - href: data.qmd
         text: "{{< fa database >}} Data"
       - href: software.qmd
-        text: "{{< fa window-restore >}} Software"
+        text: "{{< fa solid floppy-disk >}} Software"
       # - href: graphics.qmd
       #   text: "{{< fa chart-bar >}} Graphics"
-      - href: blog.qmd
-        text: "{{< fa regular comment >}} Blog"
-    right: 
+      - href: posts.qmd
+        text: "{{< fa solid fire >}} Posts"
+    left: 
       - icon: twitter
         href: https://twitter.com/raphael_cwang
       - icon: github
         href: https://github.com/Raphaellie
+      - icon: envelope
+        href: mailto:chyrwang@gmail.com
 
 format:
   html:
-    theme: [lumen,light.scss]
-      # dark: [lumen, deep.scss]
+    theme: [cosmo,light.scss,style.css]
+      # light: [cosmo,light.scss,style.css]
+      # dark:  [lumen,light.scss]
     css: styles.css
 
 editor: visual

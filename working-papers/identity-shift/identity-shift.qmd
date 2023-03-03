@@ -1,0 +1,13 @@
+---
+title: "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes"
+abstract: |
+  Challenging the conventional wisdom that social identities are "unmoved movers" that unilaterally affect people's political preferences, a burgeoning literature starts to look into whether prominent identities like race and religion are impressionable to political influences. Yet what is usually ignored or confused in this line of identity shift research is the temporal structure where politically motivated changing of identities takes place. It is one thing that long-time, consistent partisans alter their identities in accordance to prototypical partisans, and another when unstable party identifiers switch their group labels in order to match their changing politics. Building upon early insights from *the American Voter*, this study proposes a static-versus-dynamic framework of identity shift under political influence. I utilize a five-wave panel dataset to show that both kinds of identity shift exist among American partisans yet differ in terms of their magnitudes and the populations they impact.
+date: last-modified
+author: "Chaoyue R. Wang"
+---
+
+## Links
+
+[PDF](../../assets/papers/racialized-police.pdf){.btn .btn-outline-primary .btn-sm role="button"} [HTML](../../index.qmd){.btn .btn-outline-info .btn-sm role="button"} [GitHub](https://github.com/raphaellie/racialized-police){.btn .btn-outline-info .btn-sm role="button"}
+
+## Figures

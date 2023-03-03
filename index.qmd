@@ -1,27 +1,5 @@
 ---
 # title: "**Chaoyue R. Wang**"
-# title-block-style: none
-# about:
-#   # id: about-heading
-#   template: solana
-#   image: profile3.jpeg
-#   image-width: 9em
-#   links: 
-#     - icon: twitter
-#       text: Twitter
-#       href: https://twitter.com/raphael_cwang
-#     - icon: github
-#       text: GitHub
-#       href: https://github.com/Raphaellie
-#     - icon: file-person-fill
-#       text: CV
-#       href: assets/cv/Wang-CV.pdf
-#     - icon: envelope-fill
-#       text: Email
-#       href: mailto:chyrwang@gmail.com
-    # - icon: bar-chart-fill
-    #   text: Quarto
-    #   href: mailto:chyrwang@gmail.com
 ---
 
 ```{r}
@@ -31,15 +9,14 @@ library(fontawesome)
 ```
 
 ::: {.grid style="row-gap: 0;"}
-::: {.g-col-2 .g-col-md-2}
+::: {.g-col-4 .g-col-md-2}
 ![](profile3.jpeg){style="border-radius: 4%; box-shadow: 5px 5px lightblue;" fig-alt="Raphael on the South Ferry to Staten Island in New York City." width="120"}
 :::
 
-::: {.g-col-10 .g-col-md-10}
+::: {.g-col-8 .g-col-md-10}
 ### **Chaoyue R. Wang** {style="margin-top: 0px;"}
 
 [`r fa("twitter")` Twitter](https://twitter.com/raphael_cwang){.btn .btn-outline-info .btn-sm role="button"} [`r fa("github")` GitHub](https://github.com/Raphaellie){.btn .btn-outline-info .btn-sm role="button"} [`r fa("user")` CV](assets/cv/Wang-CV.pdf){.btn .btn-outline-info .btn-sm role="button"} [`r fa("envelope")` Email](mailto:chyrwang@gmail.com){.btn .btn-outline-info .btn-sm role="button"}
-
 
 [Hi there! Welcome to my personal website!]{.lead}
 :::
@@ -52,7 +29,9 @@ I grew up in an industrial town in Chongqing, China, and went to Beijing for my 
 
 Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries---people's racialized imagination of politically relevant categories---shape people's perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.
 
-A passionate `r fa('r-project',fill = 'navy')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot. Check some of the graphs I proudly made with the help of `{tidyverse}` in the [Gaphics](graphics.qmd) page.
+A passionate `r fa('r-project',fill = 'navy')` user[^2], I enjoy applying powerful packages provided by the `R` community to visualize cross-sectional and time-series patterns of American political behavior in both static and interactive forms. I do this mostly for fun but also to help myself uncover interesting modes in American politics that otherwise might be elusive to spot.
+
+<!-- Check some of the graphs I proudly made with the help of `{tidyverse}` in the [Gaphics](graphics.qmd) page. -->
 
 ## Education `r fa("graduation-cap")`
 

@@ -1,13 +1,14 @@
 ---
-title: "{{< fa regular comment >}} Blog"
+title: "**{{< fa solid fire >}} Posts**"
 listing:
   contents: posts
   sort: "date desc"
   type: default
+  table-hover: true
   categories: true
   filter-ui: true
   sort-ui: true
   feed: true
   fields: [image, date, title, subtitle, author, description, categories,file-modified]
-title-block-banner: true
+title-block-banner: false
 ---
