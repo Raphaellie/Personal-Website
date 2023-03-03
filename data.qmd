@@ -1,7 +1,7 @@
 ---
 title: "{{< fa database >}} Data"
 nocite: '@*'
-toc: true
+toc: false
 title-block-banner: true
 ---
 

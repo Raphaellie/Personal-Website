@@ -5,7 +5,7 @@ project:
   - "research/"
 
 website:
-  title: "CHAOYUE"
+  # title: "CHAOYUE"
   description: "Chaoyue Wang's Personal Website"
   favicon: icon.png
   search: 
@@ -19,18 +19,18 @@ website:
         href: https://twitter.com/raphael_cwang
       - icon: github
         href: https://github.com/Raphaellie
-    left: "Chaoyue Wang {{< fa solid copyright >}} 2022. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
+    left: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
   
   navbar:
-    title: " "
-    logo: icon.png
+    title: "**CRW**"
+    # logo: icon.png
     background: secondary
     foreground: dark
     left:
       - href: index.qmd
         text: "{{< fa regular address-card >}} About"
       - href: research.qmd
-        text: "{{< fa burst >}} Research"
+        text: "{{< fa cube >}} Research"
       - href: data.qmd
         text: "{{< fa database >}} Data"
       - href: software.qmd

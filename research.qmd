@@ -1,7 +1,7 @@
 ---
-title: "{{< fa burst >}} Research "
+title: "{{< fa cube >}} Research "
 fig-cap-location: bottom
-toc: true
+toc: false
 toc-depth: 3
 title-block-banner: true
 editor_options: 

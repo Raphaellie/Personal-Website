@@ -1,6 +1,6 @@
 ---
 title: "{{< fa window-restore >}} Software"
-toc: true
+toc: false
 title-block-banner: true
 csl: econometrics.csl
 ---
