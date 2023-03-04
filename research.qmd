@@ -10,6 +10,8 @@ listing:
   type: table
   table-hover: true
   date-format: short
+  sort-ui: true
+  filter-ui: true
   fields: [title,date]
   field-display-names: 
     date: "Updated"

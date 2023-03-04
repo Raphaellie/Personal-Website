@@ -1,0 +1,18 @@
+{
+  "hash": "883b2ddb2f15ac6a3fa20eb123abaad5",
+  "result": {
+    "markdown": "---\ntitle: \"Blues in Colors\"\nsubtitle:  \"Police Violence, Racial Representation, and White Attitude Change\"\ncategories: [REP, Policing, Violence, Public Opinion, Context]\nimage: \"image.png\"\nabstract: |\n  Political behavior has been structured along group identities, and a racial division emerges regarding attitudes toward law enforcement and actions on police brutality. Compared to people of color, white Americans are more supportive of police agencies and more hesitant about reforming policing behavior even in the wake of multiple recent unjustified police-involved homicides. While existing studies attribute such difference to white's unique experiences with law enforcement, excessive white representation in police workforces has received little attention. Linking a nationally representative sample to their local context of racialized police and police violence, this study finds that more representation of black and Hispanic officers greatly enhances the process where white residents reacts to police violence by holding more critical view toward law enforcement. Interestingly, white representation in police has only weak effect of such. Findings here highlights group thinking as a contributing factor to today's racial divide on policing, and implicates how promoting racial diversity in police workforce can facilitate the outset of meaningful conversations on police violence.\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(pixture)\npixgallery(list.files('graphs',full.names = T), gap = '20px')\n```\n\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-4740ac492dae680dda24\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-4740ac492dae680dda24\">{\"x\":{\"path\":[\"graphs/fig-baseline-1.png\",\"graphs/fig-divides-1.png\",\"graphs/fig-lemas-cover-1.png\",\"graphs/fig-racial.component-1.png\",\"graphs/fig-reaction-mod-1.png\"],\"caption\":[],\"dim\":\"200px\",\"gap\":\"20px\",\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../../site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\n<link href=\"../../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/pixgallery-binding-0.0.2.2001/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

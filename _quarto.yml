@@ -39,7 +39,6 @@ website:
       #   text: "{{< fa chart-bar >}} Graphics"
       - href: posts.qmd
         text: "{{< fa solid fire >}} Posts"
-    left: 
       - icon: twitter
         href: https://twitter.com/raphael_cwang
       - icon: github
@@ -47,10 +46,18 @@ website:
       - icon: envelope
         href: mailto:chyrwang@gmail.com
 
+    # left:
+    # - icon: twitter
+    #   href: https://twitter.com/raphael_cwang
+    # - icon: github
+    #   href: https://github.com/Raphaellie
+    # - icon: envelope
+    #   href: mailto:chyrwang@gmail.com
+
 format:
   html:
-    theme: [cosmo,light.scss,style.css]
-      # light: [cosmo,light.scss,style.css]
+    theme: [cosmo,light.scss]
+      # light: [cosmo,light.scss]
       # dark:  [lumen,light.scss]
     css: styles.css
 
