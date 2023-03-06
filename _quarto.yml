@@ -25,7 +25,7 @@ website:
     title: "[**Chaoyue R. Wang**]{.smallcaps}"
     logo: icon.png
     background: light
-    foreground: dark
+    foreground: secondary
     right:
       - href: index.qmd
         text: "{{< fa solid circle-user >}} About"
@@ -59,6 +59,8 @@ format:
     theme: [cosmo,light.scss]
       # light: [cosmo,light.scss]
       # dark:  [lumen,light.scss]
+    fontcolor: "#222222"
     css: styles.css
+
 
 editor: visual
