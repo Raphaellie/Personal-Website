@@ -12,28 +12,20 @@ website:
     type: textbox
 
   page-footer:
-    right:
-      - icon: twitter
-        href: https://twitter.com/raphael_cwang
-      - icon: github
-        href: https://github.com/Raphaellie
-      - icon: envelope
-        href: mailto:chyrwang@gmail.com
-    left: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
-  
+    center: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio. "
+      # - icon: twitter
+      #   href: https://twitter.com/raphael_cwang
+      # - icon: github
+      #   href: https://github.com/Raphaellie
+      # - icon: envelope
+      #   href: mailto:chyrwang@gmail.com
+
   navbar:
-    title: "[**Chaoyue**]{.smallcaps}"
-    logo: icon.png
-    background: light
-    # foreground: dark
+    title: "[**Chaoyue Wang**]{.smallcaps}"
+    logo: icon2.png
+    background: dark
+    foreground: light
     pinned: true
-    # left:
-    #   - icon: twitter
-    #     href: https://twitter.com/raphael_cwang
-    #   - icon: github
-    #     href: https://github.com/Raphaellie
-    #   - icon: envelope
-    #     href: mailto:chyrwang@gmail.com
     left:
       - href: index.qmd
         text: "About" # {{< fa solid circle-user >}} 
@@ -47,21 +39,19 @@ website:
       #   text: "{{< fa chart-bar >}} Graphics"
       - href: posts.qmd
         text: "Posts" # {{< fa solid fire >}} 
+      - icon: envelope-fill
+        href: mailto:chyrwang@gmail.com
+      - icon: twitter
+        href: https://twitter.com/raphael_cwang
+      - icon: github
+        href: https://github.com/Raphaellie
 
-
-    # left:
-    # - icon: twitter
-    #   href: https://twitter.com/raphael_cwang
-    # - icon: github
-    #   href: https://github.com/Raphaellie
-    # - icon: envelope
-    #   href: mailto:chyrwang@gmail.com
 
 format:
   html:
-    theme: flatly
+    theme: sandstone
     # fontcolor: "#222222"
-    linkcolor: $info
+    linkcolor: $primary
     fontsize: 100%
     backgroundcolor: white
     # css: styles.css
