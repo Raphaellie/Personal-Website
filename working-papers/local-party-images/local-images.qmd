@@ -4,6 +4,7 @@ abstract: |
   Social sorting, the situation where social groups become strongly interconnected with political parties, has been examined as a contributing factor to affective polarization in American politics. By cultivating party images represented through prominent social identities, this process instills group tensions into party politics. Yet few existing studies takes advantage of local variations of partisan composition to investigate whether the extent to which current political polarization are affected by "parties in our head". This research builds an index for party images for each congressional district using 2016 and 2020 Cooperative Election Studies, and links these local measures with 2020 American Election Studies where detailed indicators of polarization behavior are included. I find that the further the racial images of local partisans deviate from national stereotypes, the lower level of affective polarization is observed among the district's respondents. The deviation of local party images also undermines the influence group feelings have in people's polarization behavior. Heterogeneities by party and racial group are discussed.
 date: last-modified
 author: "Chaoyue R. Wang"
+pdf: ../../assets/papers/local-images.pdf
 ---
 
 ## Links

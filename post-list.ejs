@@ -1,0 +1,13 @@
+```{=html}
+
+<% for (const item of items) { %>
+
+    <h3><%- moment(item.date).format('MMM-DD-YYYY') %></
+
+    <em><%= item.date %></em> &nbsp
+    <a style="text-decoration: none;" href="<%- item.path %>">
+    <%= item.title %></a> </br>
+    
+<% } %>
+
+```

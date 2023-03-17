@@ -4,6 +4,7 @@ abstract: |
   Following the murder of George Floyd, whites and blacks again diverged in their perceptions of and reactions to the reality of police violence in the United States. While existing works look into experiential and cultural differences between the two groups, this study examines the role of whites' excessive representation in police workforce that fosters a "white imagery" of the profession. Can this racialized image of police officers activate in-group favoritism among whites but push blacks away? Merging the 2020 Cooperative Election Study with administrative sampling of local police departments, I find that given whites' share of local population constant, a higher percentage of white officers in local police department is associated with more favorable feelings of police among whites, a greater black-white divide in police attitudes, and makes the white residents more tolerant of police at the presence of police violence.
 date: last-modified
 author: "Chaoyue R. Wang"
+pdf: ../../assets/papers/racialized-police.pdf
 ---
 
 ## Links

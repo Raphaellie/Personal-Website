@@ -1,15 +1,16 @@
 ---
-title: "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism in Poland"
+title: "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism"
 author: 
   - "Chaoyue R. Wang"
   - "Weihan Zhang"
 abstract: |
   An emerging literature looks to historical legacies when trying to understand contemporary political divides, yet specific mechanisms remain empirically unsettled through which past institutions continuously shape political behavior over generations. Cultural or psychological persistence, which precipitates from unique, individual experiences of past generations, is often entangled with more structural mechanisms like social and economic path dependence of past institutions, making the two hard to distinguish. Exploiting Poland's Prussian partition in history and territory transfers after WWII, this study differentiates out the cultural persistence mechanism through within-treatment comparison. Under a spatial regression discontinuity design, our results indicate overall stronger reluctance toward political and national conservatism in former Prussian area, even after considering socioeconomic covariates. Furthermore, such liberal legacies of historical Prussian rule concentrate only on areas that didn't experienced substantial migration following WWII, cementing a cultural mechanism.
 date: last-modified
+pdf: ../../assets/papers/poland.pdf
 ---
 
 ## Links
 
-[PDF](../../assets/papers/racialized-police.pdf){.btn .btn-outline-primary .btn-sm role="button"} [HTML](../../index.qmd){.btn .btn-outline-info .btn-sm role="button"} [GitHub](https://github.com/raphaellie/racialized-police){.btn .btn-outline-info .btn-sm role="button"}
+[PDF](../../assets/papers/poland.pdf){.btn .btn-outline-primary .btn-sm role="button"} [HTML](../../index.qmd){.btn .btn-outline-info .btn-sm role="button"} [GitHub](https://github.com/raphaellie/racialized-police){.btn .btn-outline-info .btn-sm role="button"}
 
 ## Figures

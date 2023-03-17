@@ -3,6 +3,9 @@
     "research.qmd": [
       "working-papers"
     ],
+    "index.qmd": [
+      "working-papers"
+    ],
     "posts.qmd": [
       "posts"
     ]

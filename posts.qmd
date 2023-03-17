@@ -3,12 +3,14 @@ title: "**{{< fa solid fire >}} Posts**"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: table
   table-hover: true
-  # categories: true
+  # categories:false
   filter-ui: true
   sort-ui: true
-  feed: true
-  fields: [image, date, title, subtitle, author, description, categories,file-modified]
+  # date-format: long
+  # feed: true
+  # template: post-list.ejs
+  fields: [date, title]
 title-block-banner: false
 ---

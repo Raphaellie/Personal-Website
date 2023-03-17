@@ -22,29 +22,32 @@ website:
     left: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio."
   
   navbar:
-    title: "[**Chaoyue R. Wang**]{.smallcaps}"
+    title: "[**Chaoyue**]{.smallcaps}"
     logo: icon.png
     background: light
-    foreground: secondary
-    right:
+    # foreground: dark
+    pinned: true
+    # left:
+    #   - icon: twitter
+    #     href: https://twitter.com/raphael_cwang
+    #   - icon: github
+    #     href: https://github.com/Raphaellie
+    #   - icon: envelope
+    #     href: mailto:chyrwang@gmail.com
+    left:
       - href: index.qmd
-        text: "{{< fa solid circle-user >}} About"
+        text: "About" # {{< fa solid circle-user >}} 
       - href: research.qmd
-        text: "{{< fa cube >}} Research"
-      - href: data.qmd
-        text: "{{< fa database >}} Data"
+        text: "Research" # {{< fa cube >}}
+      # - href: data.qmd
+        # text: "Data" # {{< fa database >}}
       - href: software.qmd
-        text: "{{< fa solid floppy-disk >}} Software"
+        text: "Software" # {{< fa solid floppy-disk >}} 
       # - href: graphics.qmd
       #   text: "{{< fa chart-bar >}} Graphics"
       - href: posts.qmd
-        text: "{{< fa solid fire >}} Posts"
-      - icon: twitter
-        href: https://twitter.com/raphael_cwang
-      - icon: github
-        href: https://github.com/Raphaellie
-      - icon: envelope
-        href: mailto:chyrwang@gmail.com
+        text: "Posts" # {{< fa solid fire >}} 
+
 
     # left:
     # - icon: twitter
@@ -56,11 +59,11 @@ website:
 
 format:
   html:
-    theme: [cosmo,light.scss]
-      # light: [cosmo,light.scss]
-      # dark:  [lumen,light.scss]
-    fontcolor: "#222222"
-    css: styles.css
-
+    theme: flatly
+    # fontcolor: "#222222"
+    linkcolor: $info
+    fontsize: 100%
+    backgroundcolor: white
+    # css: styles.css
 
 editor: visual
