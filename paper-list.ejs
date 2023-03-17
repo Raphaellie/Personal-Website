@@ -3,11 +3,8 @@
 <ul>
 <% for (const item of items) { %>
   <li>
-    <%= item.title %>.
-    <a style="text-decoration: none;" class="badge bg-success" href="<%- item.path %>">
-    Abstract</a>
-    <a style="text-decoration: none;" class="badge bg-success" href="<%- item.pdf %>">
-    PDF</a>
+    <a style="text-decoration: none;" href="<%- item.path %>">
+    <%= item.title %></a>
   </li>
 <% } %>
 </ul>

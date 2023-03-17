@@ -25,9 +25,6 @@ execute:
   echo: false
 ---
 
-```{r}
-# library(pixture)
-```
 
 <!-- ## Research Interest -->
 
