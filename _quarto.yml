@@ -12,7 +12,7 @@ website:
     type: textbox
 
   page-footer:
-    center: "Chaoyue Wang {{< fa solid copyright >}} 2023. Proudly Built with Quarto and {{< fa heart >}} through RStudio. "
+    center: "Chaoyue Wang {{< fa solid copyright >}} 2023. Built with Quarto."
       # - icon: twitter
       #   href: https://twitter.com/raphael_cwang
       # - icon: github
@@ -52,8 +52,9 @@ format:
     theme: sandstone
     # fontcolor: "#222222"
     linkcolor: $primary
-    fontsize: 100%
-    backgroundcolor: white
+    # mainfont: Rubik
+    fontsize: 100% # 95%
+    # backgroundcolor: white
     # css: styles.css
 
 editor: visual

@@ -12,7 +12,7 @@ listing:
 ---
 
 ::: {.grid style="row-gap: 0;"}
-::: {.g-col-3 .g-col-md-2}
+::: {.g-col-5 .g-col-md-2}
 ![](profile.jpg){style="border-radius: 50%;" fig-alt="Raphael on the South Ferry to Staten Island in New York City." }
 :::
 
