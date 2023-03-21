@@ -12,12 +12,12 @@ listing:
 ---
 
 ::: {.grid style="row-gap: 0;"}
-::: {.g-col-5 .g-col-md-2}
-![](profile.jpg){style="border-radius: 50%;" fig-alt="Raphael on the South Ferry to Staten Island in New York City." }
+::: {.g-col-5 .g-col-md-2 .text-center}
+![](profile.jpg){style="border-radius: 50%;" fig-alt="Raphael on the South Ferry to Staten Island in New York City."}
 :::
 
 ::: {.g-col-12 .g-col-md-10}
-Hi there! I grew up in an industrial town in Chongqing, China before going to Beijing for my undergraduate education. Currently I am a senior student of Philosophy, Politics and Economics at Peking University. I also go by Raphael, my Catholic name. Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries---people's racialized imagination of politically relevant categories---shape people's perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records. 
+Hi there! I grew up in an industrial town in Chongqing, China before going to Beijing for my undergraduate education. Currently I am a senior student of Philosophy, Politics and Economics at Peking University. I also go by Raphael, my Catholic name. Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries---people's racialized imagination of politically relevant categories---shape people's perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.
 
 [{{< fa user >}} CV](assets/cv/Wang-CV.pdf){.badge .bg-info style="text-decoration: none;"} [{{< fa envelope >}} Email](mailto:chyrwang@gmail.com){.badge .bg-info style="text-decoration: none;"} [{{< fa brands twitter >}} Twitter](https://twitter.com/raphael_cwang){.badge .bg-info style="text-decoration: none;"} [{{< fa brands github >}} GitHub](https://github.com/Raphaellie){.badge .bg-info style="text-decoration: none;"}
 
@@ -28,7 +28,7 @@ Hi there! I grew up in an industrial town in Chongqing, China before going to Be
 
 ### Education
 
--   BA in Philosophy, Politics and Economics (PPE) \| June 2023 \| **Peking University**
+-   B.A. in Philosophy, Politics and Economics \| June 2023 \| **Peking University**
 -   Exchange Student, ASAP Parterships \| December 2021 \| **University of Notre Dame**
 
 ### Working Papers
