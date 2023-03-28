@@ -1,10 +1,6 @@
 ---
 # title: "**Chaoyue R. Wang**"
 # page-layout: full
-# about: 
-#   template: solana
-#   image: profile.jpg
-#   image-width: 8em
 listing: 
   id: working-papers
   contents: working-papers
@@ -13,7 +9,7 @@ listing:
 
 ::: {.grid style="row-gap: 0;"}
 ::: {.g-col-5 .g-col-md-2 .text-center}
-![](profile.jpg){style="border-radius: 50%;" fig-alt="Raphael on the South Ferry to Staten Island in New York City."}
+![](assets/images/profile.jpg){style="border-radius: 50%;" fig-alt="Raphael at Dunne Hall, Notre Dame."}
 :::
 
 ::: {.g-col-12 .g-col-md-10}
@@ -28,12 +24,12 @@ Hi there! I grew up in an industrial town in Chongqing, China before going to Be
 
 ### Education
 
--   B.A. in Philosophy, Politics and Economics \| June 2023 \| **Peking University**
--   Exchange Student, ASAP Parterships \| December 2021 \| **University of Notre Dame**
+-   B.A. in Philosophy, Politics and Economics \| June 2023 \| Peking University
+-   Exchange Student, ASAP Parterships \| December 2021 \| University of Notre Dame
 
 ### Working Papers
 
-::: {#working-papers}
+::: {#working-papers style="margin-bottom: 0"}
 :::
 :::
 :::

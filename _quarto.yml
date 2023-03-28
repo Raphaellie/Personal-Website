@@ -7,9 +7,9 @@ project:
 website:
   title: "CHAOYUE"
   description: "Chaoyue Wang's Personal Website"
-  favicon: icon.png
+  favicon: assets/images/icon.png
   search: 
-    type: textbox
+    type: overlay
 
   page-footer:
     center: "**{{< fa brands creative-commons >}} 2022-2023 Chaoyue Wang. Built with Quarto.**"
@@ -22,7 +22,7 @@ website:
 
   navbar:
     title: "[**Chaoyue Wang**]{.smallcaps}"
-    logo: icon2.png
+    logo: assets/images/icon2.png
     background: dark
     foreground: light
     pinned: true
@@ -35,10 +35,11 @@ website:
         # text: "Data" # {{< fa database >}}
       - href: software.qmd
         text: "Software" # {{< fa solid floppy-disk >}} 
-      # - href: graphics.qmd
-      #   text: "{{< fa chart-bar >}} Graphics"
       - href: posts.qmd
         text: "Posts" # {{< fa solid fire >}} 
+      # - href: graphics.qmd
+      #   text: "{{< fa chart-bar >}} Graphics"
+    tools:
       - icon: envelope-fill
         href: mailto:chyrwang@gmail.com
       - icon: twitter
@@ -52,7 +53,7 @@ format:
     theme: lumen
     # fontcolor: "#222222"
     linkcolor: $primary
-    fontsize: 100% # 95%
+    # fontsize: 105% # 95%
     # backgroundcolor: white
     # css: styles.css
 
