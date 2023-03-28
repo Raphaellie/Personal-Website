@@ -12,7 +12,7 @@ website:
     type: overlay
 
   page-footer:
-    center: "**{{< fa brands creative-commons >}} 2022-2023 Chaoyue Wang. Built with Quarto.**"
+    center: "{{< fa brands creative-commons >}} 2022-2023 Chaoyue Wang."
       # - icon: twitter
       #   href: https://twitter.com/raphael_cwang
       # - icon: github
@@ -53,7 +53,7 @@ format:
     theme: lumen
     # fontcolor: "#222222"
     linkcolor: $primary
-    # fontsize: 105% # 95%
+    fontsize: 100% # 95%
     # backgroundcolor: white
     # css: styles.css
 
