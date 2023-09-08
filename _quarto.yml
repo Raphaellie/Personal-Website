@@ -12,7 +12,7 @@ website:
     type: overlay
 
   page-footer:
-    left: "{{< fa brands creative-commons >}} 2022-2023 CHAOYUE WANG."
+    left: "{{< fa brands creative-commons >}} 2022-2023 CHAOYUE WANG"
     center: 
       - icon: envelope-fill
         href: mailto:chyrwang@gmail.com
