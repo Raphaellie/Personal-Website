@@ -52,10 +52,7 @@ website:
 format:
   html:
     theme: lumen
-    # fontcolor: "#222222"
     linkcolor: $primary
     fontsize: 100% # 95%
-    # backgroundcolor: white
-    # css: styles.css
 
 editor: visual
