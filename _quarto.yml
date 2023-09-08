@@ -53,6 +53,6 @@ format:
   html:
     theme: lumen
     linkcolor: $primary
-    fontsize: 100% # 95%
+    fontsize: 100%
 
 editor: visual
