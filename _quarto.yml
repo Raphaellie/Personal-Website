@@ -12,11 +12,19 @@ website:
     type: overlay
 
   page-footer:
-    center: "{{< fa brands creative-commons >}} 2022-2023 Chaoyue Wang"
+    left: "{{< fa brands creative-commons >}} 2022-2023 CHAOYUE WANG."
+    center: 
+      - icon: envelope-fill
+        href: mailto:chyrwang@gmail.com
+      - icon: twitter
+        href: https://twitter.com/raphael_cwang
+      - icon: github
+        href: https://github.com/Raphaellie
+    background: light
   navbar:
     title: "[**Chaoyue Wang**]{.smallcaps}"
     logo: assets/images/icon.png
-    background: 'white'
+    background: light
     foreground: 'black'
     pinned: true
     left:
@@ -29,7 +37,7 @@ website:
       - href: software.qmd
         text: "Software" # {{< fa solid floppy-disk >}} 
       - href: posts.qmd
-        text: "Posts" # {{< fa solid fire >}} 
+        text: "Blog" # {{< fa solid fire >}} 
       # - href: graphics.qmd
       #   text: "{{< fa chart-bar >}} Graphics"
     tools:

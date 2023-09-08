@@ -1,8 +1,7 @@
 ---
 title: "Open Social Science Research with R and Quarto"
 author: Chaoyue R. Wang
-abstract: |
-    A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.
+# subtitle: A `R` package that makes it easier to track the evolution of public opinion in cumulative American National Election Studies for both individual questions and their connections.
 date: "2022-09-27"
 categories: [Open Science, R, Quarto]
 image: thumbnail.jpg

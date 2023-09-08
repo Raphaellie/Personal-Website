@@ -1,157 +1,10 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": " Research",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": " Data",
     "section": "",
-    "text": "Focusing on American politics, I am particularly interested in how racial identities shape the way people perceive and respond to the political world, and to what extent such racialization of political behavior is responsible for affective polarization characterizing the American public. To answer these questions, I look into the role of racial imagery, that is, racialized imagination of politically relevant categories. I contend that given the prevalence of group-centrism in opinion formation, people approach an issue or a party not just through ideological concerns, but also by considering whether people at the center of the category looks racially like or unlike themselves. My research endeavors to understand how racial imagery of various issues affects people’s preferences, how this translates into ideological and affective divides along racial lines, and how varied strength of racial imagery can lend us insights into resolving racial polarization and building a healthier democracy.\n\n\nWorking Papers\n\n\n  \n    \n    Break the Party Images? The Electoral Impact of Minority Republican Candidates\n  \n  \n    \n    Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes\n  \n  \n    \n    See the Other Side: Local Party Images and Affective Polarization\n  \n  \n    \n    Shades of Blue: Racial Imagery of Police and White Attitudes on Policing\n  \n  \n    \n    The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism\n  \n\n\nNo matching items\n\n\n\n\nWorks in Progress"
-  },
-  {
-    "objectID": "posts/RaPhlot/index.html",
-    "href": "posts/RaPhlot/index.html",
-    "title": "Meet {RaPhlot}",
-    "section": "",
-    "text": "American National Election Studies (ANES) is possibly the most authentic survey used in studies of American political behavior. Conducted every four years (and sometimes every two years) since 1948, ANES provides a consistent and enduring window for political scientists to observe both the cross-sectional landscape and time-serial evolution of public opinion. Though its name suggests electoral behavior as the focus of the survey, ANES actually include a diverse range of questions that captures a respondent’s social, cultural, and psychological orientations. The relative stability of questions asked in ANES, many of which span across decades, is especially helpful for those interested in how the political mind of the American public is shaped by periodical and generational forces.\nConsistent and high-quality as it is, there are also some conditions of ANES that holds back a smooth experience of exmaining long-term public opinion using this dataset. First, variables in ANES data are named with a somehow random combination of letters (usually “V”) and numbers, which suggests little information about its content at the absence of codebooks or variables labels1. This means that every time we input the original version of ANES data, we need to rename the variables of interest with the user guide’s help, and take some time to revive our memory of what each variable literally asks the respondents.\nSecond, though variables pertaining to essential political behavior like partisanship or ideology are almost asked in every survey from 1948 to 2020, a large number of variables are either relatively new or had only been asked during several releases. The official website of ANES offers continuity guides that report the timing span of a variable, but there is no standalone support in statistical softwares to report such continuity with just one click. This adds some potential frustration into our explorations of ANES since descriptive or regression analyses in R would report error or return NA values when no observation is detected."
-  },
-  {
-    "objectID": "posts/RaPhlot/index.html#anes",
-    "href": "posts/RaPhlot/index.html#anes",
-    "title": "Meet {RaPhlot}",
-    "section": "",
-    "text": "American National Election Studies (ANES) is possibly the most authentic survey used in studies of American political behavior. Conducted every four years (and sometimes every two years) since 1948, ANES provides a consistent and enduring window for political scientists to observe both the cross-sectional landscape and time-serial evolution of public opinion. Though its name suggests electoral behavior as the focus of the survey, ANES actually include a diverse range of questions that captures a respondent’s social, cultural, and psychological orientations. The relative stability of questions asked in ANES, many of which span across decades, is especially helpful for those interested in how the political mind of the American public is shaped by periodical and generational forces.\nConsistent and high-quality as it is, there are also some conditions of ANES that holds back a smooth experience of exmaining long-term public opinion using this dataset. First, variables in ANES data are named with a somehow random combination of letters (usually “V”) and numbers, which suggests little information about its content at the absence of codebooks or variables labels1. This means that every time we input the original version of ANES data, we need to rename the variables of interest with the user guide’s help, and take some time to revive our memory of what each variable literally asks the respondents.\nSecond, though variables pertaining to essential political behavior like partisanship or ideology are almost asked in every survey from 1948 to 2020, a large number of variables are either relatively new or had only been asked during several releases. The official website of ANES offers continuity guides that report the timing span of a variable, but there is no standalone support in statistical softwares to report such continuity with just one click. This adds some potential frustration into our explorations of ANES since descriptive or regression analyses in R would report error or return NA values when no observation is detected."
-  },
-  {
-    "objectID": "posts/RaPhlot/index.html#say-hi-to-raphlot",
-    "href": "posts/RaPhlot/index.html#say-hi-to-raphlot",
-    "title": "Meet {RaPhlot}",
-    "section": "Say Hi to {RaPhlot}",
-    "text": "Say Hi to {RaPhlot}\nThe {RaPhlot} package is created to address these issues with additional support for analyzing how attitudinal indicators evolve in terms of their own trend and their relationship to other attitudes.\n\nscatter.smooth(Nile)"
-  },
-  {
-    "objectID": "posts/RaPhlot/index.html#footnotes",
-    "href": "posts/RaPhlot/index.html#footnotes",
-    "title": "Meet {RaPhlot}",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nUnlike the data inspector in Stata that shows greater details of variables, the data viewer in RStudio usually detach a variable from its original label, making the problem of abstract variable naming in ANES even more salient.↩︎"
-  },
-  {
-    "objectID": "posts/os-r-quarto/index.html",
-    "href": "posts/os-r-quarto/index.html",
-    "title": "Open Social Science Research with R and Quarto",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CHAOYUE",
-    "section": "",
-    "text": "Hi there! I grew up in an industrial town in Chongqing, China before going to Beijing for my undergraduate education. Currently I am a senior student of Philosophy, Politics and Economics at Peking University. I also go by Raphael, my Catholic name. Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries—people’s racialized imagination of politically relevant categories—shape people’s perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.\n CV  Email  Twitter  GitHub\n\nResearch Interests\n\nAreas | American Politics, Racial and Ethnic Politics (REP), Political Behavior\nTopics | Politics of Identity, Social Cleavage, Partisanship, Affective Polarization\n\n\n\nEducation\n\nB.A. in Philosophy, Politics and Economics | June 2023 | Peking University\nExchange Student, ASAP Parterships | December 2021 | University of Notre Dame\n\n\n\nWorking Papers\n\n\n  \n    \n    Break the Party Images? The Electoral Impact of Minority Republican Candidates\n  \n  \n    \n    Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes\n  \n  \n    \n    See the Other Side: Local Party Images and Affective Polarization\n  \n  \n    \n    Shades of Blue: Racial Imagery of Police and White Attitudes on Policing\n  \n  \n    \n    The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism\n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "working-papers/poland/poland.html",
-    "href": "working-papers/poland/poland.html",
-    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/poland/poland.html#links",
-    "href": "working-papers/poland/poland.html#links",
-    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/poland/poland.html#figures",
-    "href": "working-papers/poland/poland.html#figures",
-    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
-    "section": "Figures",
-    "text": "Figures"
-  },
-  {
-    "objectID": "working-papers/local-party-images/local-images.html",
-    "href": "working-papers/local-party-images/local-images.html",
-    "title": "See the Other Side: Local Party Images and Affective Polarization",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/local-party-images/local-images.html#links",
-    "href": "working-papers/local-party-images/local-images.html#links",
-    "title": "See the Other Side: Local Party Images and Affective Polarization",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/local-party-images/local-images.html#figures",
-    "href": "working-papers/local-party-images/local-images.html#figures",
-    "title": "See the Other Side: Local Party Images and Affective Polarization",
-    "section": "Figures",
-    "text": "Figures"
-  },
-  {
-    "objectID": "working-papers/identity-shift/identity-shift.html",
-    "href": "working-papers/identity-shift/identity-shift.html",
-    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/identity-shift/identity-shift.html#links",
-    "href": "working-papers/identity-shift/identity-shift.html#links",
-    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/identity-shift/identity-shift.html#figures",
-    "href": "working-papers/identity-shift/identity-shift.html#figures",
-    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
-    "section": "Figures",
-    "text": "Figures"
-  },
-  {
-    "objectID": "working-papers/racialized-police/racialized-police.html",
-    "href": "working-papers/racialized-police/racialized-police.html",
-    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/racialized-police/racialized-police.html#links",
-    "href": "working-papers/racialized-police/racialized-police.html#links",
-    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/racialized-police/racialized-police.html#figures",
-    "href": "working-papers/racialized-police/racialized-police.html#figures",
-    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
-    "section": "Figures",
-    "text": "Figures"
-  },
-  {
-    "objectID": "working-papers/minority-GOP/minority-gop.html",
-    "href": "working-papers/minority-GOP/minority-gop.html",
-    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/minority-GOP/minority-gop.html#links",
-    "href": "working-papers/minority-GOP/minority-gop.html#links",
-    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
-    "section": "",
-    "text": "PDF HTML GitHub"
-  },
-  {
-    "objectID": "working-papers/minority-GOP/minority-gop.html#figures",
-    "href": "working-papers/minority-GOP/minority-gop.html#figures",
-    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
-    "section": "Figures",
-    "text": "Figures"
+    "text": "Party Images in Congressional Districts GitHub\nOverall, the Republican Party is predominantly white while the Democrat Party is racially more diverse. Distinct on the national level, what are the local variations of racialized imageries of the two major parties? Combining 2016 and 2020 Cooperative Congressional Studies, this dataset details the racial compositions of Democratic and Republican partisans at the level of congressional district.\n\n\n\nRacial Compositions of Local Police Officers GitHub\nRepresentative bureaucracy, where racial composition of government employees fairly reflects the racial landscape of the population they serve, has been theorized to forge better governance due to the diverse experiences it brings into decision making, and the symbolic proximity it builds with the served public. This said, are the tensions between policing agencies and the served neighbors a result of skewed representation in their workforce? To help address questions like such, this dataset utilizes the 2016 Law Enforcement Management and Administrative Statistics (LEMAS), a nationally representative sample of over 3,000 law enforcement agencies across many levels."
   },
   {
     "objectID": "software.html",
@@ -182,17 +35,164 @@
     "text": "Quarto Setup"
   },
   {
+    "objectID": "working-papers/racialized-police/racialized-police.html",
+    "href": "working-papers/racialized-police/racialized-police.html",
+    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/racialized-police/racialized-police.html#links",
+    "href": "working-papers/racialized-police/racialized-police.html#links",
+    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/racialized-police/racialized-police.html#figures",
+    "href": "working-papers/racialized-police/racialized-police.html#figures",
+    "title": "Shades of Blue: Racial Imagery of Police and White Attitudes on Policing",
+    "section": "Figures",
+    "text": "Figures"
+  },
+  {
+    "objectID": "working-papers/local-party-images/local-images.html",
+    "href": "working-papers/local-party-images/local-images.html",
+    "title": "See the Other Side: Local Party Images and Affective Polarization",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/local-party-images/local-images.html#links",
+    "href": "working-papers/local-party-images/local-images.html#links",
+    "title": "See the Other Side: Local Party Images and Affective Polarization",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/local-party-images/local-images.html#figures",
+    "href": "working-papers/local-party-images/local-images.html#figures",
+    "title": "See the Other Side: Local Party Images and Affective Polarization",
+    "section": "Figures",
+    "text": "Figures"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CHAOYUE",
+    "section": "",
+    "text": "Hi there! I grew up in an industrial town in Chongqing, China before going to Beijing for my undergraduate education. Currently I am a senior student of Philosophy, Politics and Economics at Peking University. I also go by Raphael, my Catholic name. Broadly interested in race and ethnic politics and political behavior in the realm of American politics, I study the dynamics between racial identities and political polarization. My research examines how racial imageries—people’s racialized imagination of politically relevant categories—shape people’s perception of politics, and drive a diversifying America toward affective as well as ideological extremes. To accurately capture the content of racial imageries and their political implications, I draw upon an extensive range of data sources including public opinion surveys, census data, and administrative records.\n CV  Email  Twitter  GitHub\n\nResearch Interests\n\nAreas | American Politics, Racial and Ethnic Politics (REP), Political Behavior\nTopics | Politics of Identity, Social Cleavage, Partisanship, Affective Polarization\n\n\n\nEducation\n\nB.A. in Philosophy, Politics and Economics | July 2024 | Peking University\nVisiting Student, ASAP Partnerships | December 2021 | University of Notre Dame\n\n\n\nWorking Papers\n\n\n  \n    \n    Break the Party Images? The Electoral Impact of Minority Republican Candidates\n  \n  \n    \n    Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes\n  \n  \n    \n    See the Other Side: Local Party Images and Affective Polarization\n  \n  \n    \n    Shades of Blue: Racial Imagery of Police and White Attitudes on Policing\n  \n  \n    \n    The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism\n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/RaPhlot/index.html",
+    "href": "posts/RaPhlot/index.html",
+    "title": "Meet {RaPhlot}",
+    "section": "",
+    "text": "American National Election Studies (ANES) is possibly the most authentic survey used in studies of American political behavior. Conducted every four years (and sometimes every two years) since 1948, ANES provides a consistent and enduring window for political scientists to observe both the cross-sectional landscape and time-serial evolution of public opinion. Though its name suggests electoral behavior as the focus of the survey, ANES actually include a diverse range of questions that captures a respondent’s social, cultural, and psychological orientations. The relative stability of questions asked in ANES, many of which span across decades, is especially helpful for those interested in how the political mind of the American public is shaped by periodical and generational forces.\nConsistent and high-quality as it is, there are also some conditions of ANES that holds back a smooth experience of exmaining long-term public opinion using this dataset. First, variables in ANES data are named with a somehow random combination of letters (usually “V”) and numbers, which suggests little information about its content at the absence of codebooks or variables labels1. This means that every time we input the original version of ANES data, we need to rename the variables of interest with the user guide’s help, and take some time to revive our memory of what each variable literally asks the respondents.\nSecond, though variables pertaining to essential political behavior like partisanship or ideology are almost asked in every survey from 1948 to 2020, a large number of variables are either relatively new or had only been asked during several releases. The official website of ANES offers continuity guides that report the timing span of a variable, but there is no standalone support in statistical softwares to report such continuity with just one click. This adds some potential frustration into our explorations of ANES since descriptive or regression analyses in R would report error or return NA values when no observation is detected."
+  },
+  {
+    "objectID": "posts/RaPhlot/index.html#anes",
+    "href": "posts/RaPhlot/index.html#anes",
+    "title": "Meet {RaPhlot}",
+    "section": "",
+    "text": "American National Election Studies (ANES) is possibly the most authentic survey used in studies of American political behavior. Conducted every four years (and sometimes every two years) since 1948, ANES provides a consistent and enduring window for political scientists to observe both the cross-sectional landscape and time-serial evolution of public opinion. Though its name suggests electoral behavior as the focus of the survey, ANES actually include a diverse range of questions that captures a respondent’s social, cultural, and psychological orientations. The relative stability of questions asked in ANES, many of which span across decades, is especially helpful for those interested in how the political mind of the American public is shaped by periodical and generational forces.\nConsistent and high-quality as it is, there are also some conditions of ANES that holds back a smooth experience of exmaining long-term public opinion using this dataset. First, variables in ANES data are named with a somehow random combination of letters (usually “V”) and numbers, which suggests little information about its content at the absence of codebooks or variables labels1. This means that every time we input the original version of ANES data, we need to rename the variables of interest with the user guide’s help, and take some time to revive our memory of what each variable literally asks the respondents.\nSecond, though variables pertaining to essential political behavior like partisanship or ideology are almost asked in every survey from 1948 to 2020, a large number of variables are either relatively new or had only been asked during several releases. The official website of ANES offers continuity guides that report the timing span of a variable, but there is no standalone support in statistical softwares to report such continuity with just one click. This adds some potential frustration into our explorations of ANES since descriptive or regression analyses in R would report error or return NA values when no observation is detected."
+  },
+  {
+    "objectID": "posts/RaPhlot/index.html#say-hi-to-raphlot",
+    "href": "posts/RaPhlot/index.html#say-hi-to-raphlot",
+    "title": "Meet {RaPhlot}",
+    "section": "Say Hi to {RaPhlot}",
+    "text": "Say Hi to {RaPhlot}\nThe {RaPhlot} package is created to address these issues with additional support for analyzing how attitudinal indicators evolve in terms of their own trend and their relationship to other attitudes.\n\nscatter.smooth(Nile)"
+  },
+  {
+    "objectID": "posts/RaPhlot/index.html#footnotes",
+    "href": "posts/RaPhlot/index.html#footnotes",
+    "title": "Meet {RaPhlot}",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nUnlike the data inspector in Stata that shows greater details of variables, the data viewer in RStudio usually detach a variable from its original label, making the problem of abstract variable naming in ANES even more salient.↩︎"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": " Research",
+    "section": "",
+    "text": "Focusing on American politics, I am particularly interested in how racial identities shape the way people perceive and respond to the political world, and to what extent such racialization of political behavior is responsible for affective polarization characterizing the American public. To answer these questions, I look into the role of racial imagery, that is, racialized imagination of politically relevant categories. I contend that given the prevalence of group-centrism in opinion formation, people approach an issue or a party not just through ideological concerns, but also by considering whether people at the center of the category looks racially like or unlike themselves. My research endeavors to understand how racial imagery of various issues affects people’s preferences, how this translates into ideological and affective divides along racial lines, and how varied strength of racial imagery can lend us insights into resolving racial polarization and building a healthier democracy.\n\n\nWorking Papers\n\n\n  \n    \n    Break the Party Images? The Electoral Impact of Minority Republican Candidates\n  \n  \n    \n    Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes\n  \n  \n    \n    See the Other Side: Local Party Images and Affective Polarization\n  \n  \n    \n    Shades of Blue: Racial Imagery of Police and White Attitudes on Policing\n  \n  \n    \n    The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism\n  \n\n\nNo matching items\n\n\n\n\nWorks in Progress"
+  },
+  {
+    "objectID": "posts/os-r-quarto/index.html",
+    "href": "posts/os-r-quarto/index.html",
+    "title": "Open Social Science Research with R and Quarto",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "working-papers/poland/poland.html",
+    "href": "working-papers/poland/poland.html",
+    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/poland/poland.html#links",
+    "href": "working-papers/poland/poland.html#links",
+    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/poland/poland.html#figures",
+    "href": "working-papers/poland/poland.html#figures",
+    "title": "The Gloom over the Mind: Prussian Rule, Cultural Persistence, and Political Liberalism",
+    "section": "Figures",
+    "text": "Figures"
+  },
+  {
+    "objectID": "working-papers/identity-shift/identity-shift.html",
+    "href": "working-papers/identity-shift/identity-shift.html",
+    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/identity-shift/identity-shift.html#links",
+    "href": "working-papers/identity-shift/identity-shift.html#links",
+    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/identity-shift/identity-shift.html#figures",
+    "href": "working-papers/identity-shift/identity-shift.html#figures",
+    "title": "Follow the Party: Static and Dynamic Shifting of Identities toward Party Prototypes",
+    "section": "Figures",
+    "text": "Figures"
+  },
+  {
+    "objectID": "working-papers/minority-GOP/minority-gop.html",
+    "href": "working-papers/minority-GOP/minority-gop.html",
+    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/minority-GOP/minority-gop.html#links",
+    "href": "working-papers/minority-GOP/minority-gop.html#links",
+    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
+    "section": "",
+    "text": "PDF HTML GitHub"
+  },
+  {
+    "objectID": "working-papers/minority-GOP/minority-gop.html#figures",
+    "href": "working-papers/minority-GOP/minority-gop.html#figures",
+    "title": "Break the Party Images? The Electoral Impact of Minority Republican Candidates",
+    "section": "Figures",
+    "text": "Figures"
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": " Posts",
     "section": "",
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nSep 30, 2022\n\n\nMeet {RaPhlot}\n\n\n\n\nSep 27, 2022\n\n\nOpen Social Science Research with R and Quarto\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": " Data",
-    "section": "",
-    "text": "Party Images in Congressional Districts GitHub\nOverall, the Republican Party is predominantly white while the Democrat Party is racially more diverse. Distinct on the national level, what are the local variations of racialized imageries of the two major parties? Combining 2016 and 2020 Cooperative Congressional Studies, this dataset details the racial compositions of Democratic and Republican partisans at the level of congressional district.\n\n\n\nRacial Compositions of Local Police Officers GitHub\nRepresentative bureaucracy, where racial composition of government employees fairly reflects the racial landscape of the population they serve, has been theorized to forge better governance due to the diverse experiences it brings into decision making, and the symbolic proximity it builds with the served public. This said, are the tensions between policing agencies and the served neighbors a result of skewed representation in their workforce? To help address questions like such, this dataset utilizes the 2016 Law Enforcement Management and Administrative Statistics (LEMAS), a nationally representative sample of over 3,000 law enforcement agencies across many levels."
   }
 ]
